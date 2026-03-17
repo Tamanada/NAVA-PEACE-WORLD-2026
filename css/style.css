@@ -284,7 +284,7 @@ html[dir="rtl"] .lang-dropdown {
    GLOBAL SECTION STYLES
    ============================================ */
 section {
-  padding: 50px 20px;
+  padding: 30px 20px;
   text-align: center;
 }
 
@@ -299,7 +299,7 @@ section {
   color: var(--white);
   text-align: center;
   letter-spacing: 5px;
-  margin-bottom: 24px;
+  margin-bottom: 14px;
   text-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
   line-height: 1.4;
 }
@@ -309,7 +309,7 @@ section {
   font-size: 1rem;
   color: rgba(255, 255, 255, 0.85);
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   letter-spacing: 0.5px;
 }
 
@@ -328,7 +328,7 @@ section {
     0 8px 32px rgba(0, 0, 0, 0.1),
     inset 0 0 0 1px rgba(255, 255, 255, 0.1);
   max-width: 800px;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
   text-align: center;
 }
 
@@ -340,11 +340,11 @@ section {
   background: var(--glass-bg);
   border: 1.5px solid var(--glass-border);
   border-radius: 28px;
-  padding: 30px 36px;
+  padding: 24px 30px;
   backdrop-filter: blur(var(--glass-blur));
   -webkit-backdrop-filter: blur(var(--glass-blur));
   max-width: 720px;
-  margin: 0 auto 30px;
+  margin: 0 auto 20px;
   text-align: center;
 }
 
@@ -565,7 +565,7 @@ section {
 .section-video {
   background: radial-gradient(ellipse at 50% 0%,
     var(--primary) 0%, var(--deep-blue) 100%);
-  padding: 0 20px 40px;
+  padding: 0 20px 20px;
 }
 
 .video-wrapper {
@@ -615,7 +615,7 @@ section {
 .section-today {
   background: radial-gradient(ellipse at 50% 30%,
     var(--sky-start) 0%, var(--primary) 50%, var(--deep-blue) 100%);
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
 .dove-circle {
@@ -695,7 +695,7 @@ section {
 .section-first {
   background: radial-gradient(ellipse at 50% 30%,
     var(--primary) 0%, var(--deep-blue) 100%);
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
 .card-label {
@@ -919,7 +919,7 @@ section {
 .section-five-phones {
   background: radial-gradient(ellipse at 50% 50%,
     var(--primary) 0%, var(--deep-blue) 100%);
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
 .five-phones {
@@ -1152,7 +1152,7 @@ section {
 .section-vision {
   background: radial-gradient(ellipse at 50% 30%,
     var(--primary) 0%, var(--deep-blue) 100%);
-  padding: 100px 20px;
+  padding: 30px 20px;
 }
 
 .vision-title {
@@ -1161,7 +1161,7 @@ section {
   color: var(--white);
   letter-spacing: 5px;
   line-height: 1.3;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   text-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
 }
 
@@ -1183,7 +1183,7 @@ section {
 .section-community {
   background: radial-gradient(ellipse at 50% 50%,
     var(--sky-start) 0%, var(--primary) 50%, var(--deep-blue) 100%);
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
 .community-card {
@@ -1226,7 +1226,7 @@ section {
 .section-manifesto {
   background: linear-gradient(180deg,
     var(--deep-blue) 0%, #0d4f7a 50%, var(--deep-blue) 100%);
-  padding: 100px 20px;
+  padding: 30px 20px;
 }
 
 .manifesto-title {
@@ -1241,7 +1241,7 @@ section {
 .manifesto-hearts {
   text-align: center;
   font-size: 1.5rem;
-  margin-bottom: 30px;
+  margin-bottom: 14px;
 }
 
 .card-manifesto {
@@ -1291,12 +1291,12 @@ section {
 .section-blockchain {
   background: radial-gradient(ellipse at 50% 30%,
     var(--primary) 0%, var(--deep-blue) 80%);
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
 .blockchain-img-wrapper {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .blockchain-img-container {
@@ -1340,7 +1340,7 @@ section {
 .section-foundation {
   background: radial-gradient(ellipse at 50% 30%,
     var(--sky-start) 0%, var(--primary) 50%, var(--deep-blue) 100%);
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
 .foundation-circle {
@@ -1350,7 +1350,7 @@ section {
 }
 
 .foundation-dove {
-  margin-bottom: 24px;
+  margin-bottom: 14px;
 }
 
 .foundation-dove-img {
@@ -1390,7 +1390,7 @@ section {
 .section-howtoplay {
   background: radial-gradient(ellipse at 50% 20%,
     var(--sky-start) 0%, var(--primary) 40%, var(--deep-blue) 100%);
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
 .info-card {
@@ -1488,12 +1488,12 @@ section {
 .section-roadmap {
   background: linear-gradient(180deg,
     var(--deep-blue) 0%, #0d4f7a 50%, var(--deep-blue) 100%);
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
 .roadmap-phase {
   max-width: 800px;
-  margin: 0 auto 40px;
+  margin: 0 auto 24px;
 }
 
 .phase-badge {
@@ -1517,7 +1517,7 @@ section {
 .section-founder {
   background: radial-gradient(ellipse at 50% 50%,
     var(--primary) 0%, var(--deep-blue) 100%);
-  padding: 50px 20px;
+  padding: 30px 20px;
 }
 
 .founder-grid {
@@ -1550,7 +1550,7 @@ section {
    ============================================ */
 .footer {
   background: rgba(0, 0, 0, 0.25);
-  padding: 40px 20px;
+  padding: 24px 20px;
   color: rgba(255, 255, 255, 0.6);
   backdrop-filter: blur(10px);
 }
