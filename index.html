@@ -587,11 +587,12 @@
         <ul class="nft-levels">
           <li>PEACE LOVER X1</li>
           <li>PEACE GARDENER X2</li>
-          <li>PEACE GUARDIAN X</li>
-          <li>PEACE GUIDE</li>
-          <li>PEACE ILLUMINATOR</li>
-          <li>PEACE LEGEND</li>
-          <li>ANGEL OF PEACE</li>
+          <li>PEACE GUARDIAN X3</li>
+          <li>PEACE GUIDE X4</li>
+          <li>PEACE ILLUMINATOR X5</li>
+          <li>PEACE LEGEND X6</li>
+          <li>ANGEL OF PEACE X8</li>
+          <li>PEACE POWER X10</li>
         </ul>
         <p data-i18n="howtoplay.nft_payment">Payment options: credit card or cryptocurrency.</p>
 
@@ -608,13 +609,13 @@
             </thead>
             <tbody>
               <tr><td>PEACE LOVER</td><td>Free</td><td>1</td><td data-i18n="howtoplay.ref1">100 referrals = 1 PEACE GARDENER NFT</td></tr>
-              <tr><td>PEACE GARDENER</td><td>$50</td><td>2</td><td data-i18n="howtoplay.ref2">500 referrals = 1 PEACE GUIDE</td></tr>
-              <tr><td>PEACE GUIDE</td><td>$100</td><td>3</td><td data-i18n="howtoplay.ref3">500 referrals = 1 PEACE GUARDIAN</td></tr>
-              <tr><td>PEACE GUARDIAN</td><td>$225</td><td>4</td><td data-i18n="howtoplay.ref4">2000 referrals = 1 PEACE ILLUMINATOR</td></tr>
-              <tr><td>PEACE ILLUMINATOR</td><td>$700</td><td>5</td><td data-i18n="howtoplay.ref5">2500 referrals = 1 PEACE LEGEND</td></tr>
-              <tr><td>PEACE LEGEND</td><td>$1500</td><td>6</td><td>—</td></tr>
-              <tr><td>PEACE ANGEL (Charter)</td><td>$5000</td><td>8</td><td data-i18n="howtoplay.ref6">Instantly upgrade from LOVER → LEGEND</td></tr>
-              <tr><td>PEACE POWER</td><td>$25,000</td><td>10+</td><td data-i18n="howtoplay.ref7">Exclusive access &amp; global privileges</td></tr>
+              <tr><td>PEACE GARDENER</td><td>$10</td><td>2</td><td data-i18n="howtoplay.ref2">500 referrals = 1 PEACE GUIDE</td></tr>
+              <tr><td>PEACE GUARDIAN</td><td>$15</td><td>3</td><td data-i18n="howtoplay.ref3">500 referrals = 1 PEACE GUARDIAN</td></tr>
+              <tr><td>PEACE GUIDE</td><td>$20</td><td>4</td><td data-i18n="howtoplay.ref4">2000 referrals = 1 PEACE ILLUMINATOR</td></tr>
+              <tr><td>PEACE ILLUMINATOR</td><td>$25</td><td>5</td><td data-i18n="howtoplay.ref5">2500 referrals = 1 PEACE LEGEND</td></tr>
+              <tr><td>PEACE LEGEND</td><td>$30</td><td>6</td><td>—</td></tr>
+              <tr><td>ANGEL OF PEACE</td><td>—</td><td>8</td><td data-i18n="howtoplay.ref6">Instantly upgrade from LOVER → LEGEND</td></tr>
+              <tr><td>PEACE POWER</td><td>$50</td><td>10</td><td data-i18n="howtoplay.ref7">Exclusive access &amp; global privileges</td></tr>
             </tbody>
           </table>
         </div>
@@ -955,6 +956,10 @@
     <div class="container">
       <h2 class="section-heading animate-on-scroll" data-i18n="founder.heading">ABOUT THE FOUNDER</h2>
 
+      <div class="founder-portrait animate-on-scroll">
+        <img src="assets/founder-portrait.png" alt="Alan August — Founder, NAVA PEACE" class="founder-photo" loading="lazy" onclick="document.getElementById('lightbox').style.display='flex'" />
+      </div>
+
       <div class="founder-grid animate-on-scroll">
         <div class="founder-card">
           <p data-i18n="founder.p1">My name is Alan August, I am an entrepreneur, globetrotter, life lover and world citizen. Witnessing over the years all these suffering, I asked to myself and to my friends: How, in 2025, cannot we live in peace, how ?</p>
@@ -998,6 +1003,11 @@
       </div>
     </div>
   </footer>
+
+  <!-- Lightbox -->
+  <div id="lightbox" style="display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,0.85);align-items:center;justify-content:center;cursor:pointer;" onclick="this.style.display='none'">
+    <img src="assets/founder-portrait.png" alt="Alan August" style="max-width:90vw;max-height:90vh;border-radius:12px;box-shadow:0 0 60px rgba(255,255,255,0.2);" />
+  </div>
 
   <script src="js/i18n.js" defer></script>
   <script src="js/main.js" defer></script>

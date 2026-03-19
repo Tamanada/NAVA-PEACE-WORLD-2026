@@ -1686,6 +1686,28 @@ section {
   padding: 30px 20px;
 }
 
+.founder-portrait {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.founder-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 25%;
+  border: 3px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.founder-photo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 0.4);
+}
+
 .founder-grid {
   display: grid;
   grid-template-columns: 1fr;
