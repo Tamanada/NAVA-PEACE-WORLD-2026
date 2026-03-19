@@ -449,5 +449,20 @@
 
   "cta.download": "REJOINDRE NAVA PEACE",
   "cta.join": "REJOINDRE LE MOUVEMENT",
-  "cta.start": "COMMENCER À MINER LA PAIX"
+  "cta.start": "COMMENCER À MINER LA PAIX",
+
+  "nav.game2economy": "Du Jeu à l'Économie",
+  "nav.community": "Communauté",
+  "game2economy.heading": "DU JEU<br/>À L'ÉCONOMIE",
+  "game2economy.sub": "Comment un geste quotidien devient une économie mondiale de la paix.",
+  "game2economy.step1_title": "VOUS JOUEZ",
+  "game2economy.step1_text": "Chaque jour, vous ouvrez l'application et cliquez sur « Je choisis la paix. » Ce geste simple est votre engagement quotidien — et il mine des tokens NAVA.",
+  "game2economy.step2_title": "LES TOKENS SONT CRÉÉS",
+  "game2economy.step2_text": "Votre action est enregistrée sur la blockchain. Chaque clic génère des tokens — une véritable monnaie numérique, pas simplement des points. Plus vous jouez, plus vous gagnez.",
+  "game2economy.step3_title": "L'ÉCONOMIE GRANDIT",
+  "game2economy.step3_text": "Des millions de joueurs créent un écosystème massif de tokens. 50% financent la Fondation pour l'aide humanitaire. Le reste alimente une nouvelle économie — la première économie de la paix.",
+  "game2economy.why_token_title": "Pourquoi tokeniser la paix ?",
+  "game2economy.why_token": "Un token est une unité de valeur numérique, comme une pièce dans un jeu vidéo — sauf que celle-ci est réelle. Lorsque vous jouez à NAVA PEACE, votre action quotidienne crée des tokens sur la blockchain. Ces tokens peuvent être échangés, épargnés ou utilisés pour soutenir des causes humanitaires. Tokeniser la paix signifie donner à votre engagement une valeur mesurable, échangeable et transparente. Pour la première fois, la paix a une économie.",
+  "game2economy.quote": "\"Si la guerre est un marché, alors la paix doit devenir une force économique.\"",
+  "game2economy.summary": "La gamification n'est pas un gadget — c'est le moteur. En transformant la paix en pratique quotidienne, nous créons l'élan collectif nécessaire pour construire une véritable économie de la paix tokenisée, soutenue par la transparence de la blockchain."
 }

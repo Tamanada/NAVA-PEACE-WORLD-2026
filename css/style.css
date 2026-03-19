@@ -1500,6 +1500,86 @@ section {
 }
 
 /* ============================================
+   FROM GAME TO ECONOMY
+   ============================================ */
+.section-game2economy {
+  background: linear-gradient(180deg, var(--deep-blue) 0%, var(--primary) 50%, var(--deep-blue) 100%);
+  padding: 30px 20px;
+}
+
+.game2economy-steps {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.g2e-step {
+  background: var(--glass-bg);
+  border: 1.5px solid var(--glass-border);
+  border-radius: 20px;
+  padding: 24px 20px;
+  backdrop-filter: blur(var(--glass-blur));
+  text-align: center;
+  flex: 1;
+  min-width: 200px;
+  max-width: 280px;
+}
+
+.g2e-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  color: var(--white);
+  font-weight: 700;
+}
+
+.g2e-step h3 {
+  font-family: var(--font-title);
+  font-size: 0.85rem;
+  color: var(--white);
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+
+.g2e-step p {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.6;
+}
+
+.g2e-arrow {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.4);
+  align-self: center;
+  padding-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .game2economy-steps {
+    flex-direction: column;
+    align-items: center;
+  }
+  .g2e-step {
+    max-width: 100%;
+  }
+  .g2e-arrow {
+    transform: rotate(90deg);
+    padding-top: 0;
+  }
+}
+
+/* ============================================
    SECTION FOUNDATION
    ============================================ */
 .section-foundation {

@@ -449,5 +449,20 @@
 
   "cta.download": "加入 NAVA PEACE",
   "cta.join": "加入运动",
-  "cta.start": "开始挖矿和平"
+  "cta.start": "开始挖矿和平",
+
+  "nav.game2economy": "从游戏到经济",
+  "nav.community": "社区",
+  "game2economy.heading": "从游戏<br/>到经济",
+  "game2economy.sub": "一个日常手势如何成为全球和平经济。",
+  "game2economy.step1_title": "你参与",
+  "game2economy.step1_text": "每天，你打开应用并点击\"我选择和平。\"这个简单的手势是你的每日承诺——它挖掘 NAVA 代币。",
+  "game2economy.step2_title": "代币被创建",
+  "game2economy.step2_text": "你的行动被记录在区块链上。每次点击都会生成代币——一种真正的数字货币，而不仅仅是积分。你玩得越多，赚得越多。",
+  "game2economy.step3_title": "经济增长",
+  "game2economy.step3_text": "数百万玩家创建了一个庞大的代币生态系统。50%资助基金会用于人道主义援助。其余部分驱动一种新经济——第一个和平经济。",
+  "game2economy.why_token_title": "为什么要将和平代币化？",
+  "game2economy.why_token": "代币是一种数字价值单位，就像电子游戏中的金币——只不过这个是真实的。当你玩 NAVA PEACE 时，你的日常行动在区块链上创建代币。这些代币可以交换、储蓄或用于支持人道主义事业。将和平代币化意味着赋予你的承诺一种可衡量的、可交易的和透明的价值。和平第一次拥有了自己的经济。",
+  "game2economy.quote": "\"如果战争是一个市场，那么和平必须成为一种经济力量。\"",
+  "game2economy.summary": "游戏化不是噱头——它是引擎。通过将和平变成每日实践，我们创造了建设一个由区块链透明度支持的真实、代币化和平经济所需的集体动力。"
 }

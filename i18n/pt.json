@@ -449,5 +449,20 @@
 
   "cta.download": "JUNTE-SE AO NAVA PEACE",
   "cta.join": "JUNTE-SE AO MOVIMENTO",
-  "cta.start": "COMECE A MINERAR PAZ"
+  "cta.start": "COMECE A MINERAR PAZ",
+
+  "nav.game2economy": "Do Jogo à Economia",
+  "nav.community": "Comunidade",
+  "game2economy.heading": "DO JOGO<br/>À ECONOMIA",
+  "game2economy.sub": "Como um gesto diário se torna uma economia global de paz.",
+  "game2economy.step1_title": "VOCÊ JOGA",
+  "game2economy.step1_text": "Todos os dias, você abre o app e clica em \"Eu escolho a paz.\" Este gesto simples é o seu compromisso diário — e minera tokens NAVA.",
+  "game2economy.step2_title": "TOKENS SÃO CRIADOS",
+  "game2economy.step2_text": "A sua ação é registada na blockchain. Cada clique gera tokens — uma moeda digital real, não apenas pontos. Quanto mais joga, mais ganha.",
+  "game2economy.step3_title": "A ECONOMIA CRESCE",
+  "game2economy.step3_text": "Milhões de jogadores criam um ecossistema massivo de tokens. 50% financia a Fundação para ajuda humanitária. O resto alimenta uma nova economia — a primeira economia da paz.",
+  "game2economy.why_token_title": "Porquê tokenizar a paz?",
+  "game2economy.why_token": "Um token é uma unidade digital de valor, como uma moeda num videojogo — exceto que esta é real. Quando joga NAVA PEACE, a sua ação diária cria tokens na blockchain. Estes tokens podem ser trocados, poupados ou usados para apoiar causas humanitárias. Tokenizar a paz significa dar ao seu compromisso um valor mensurável, negociável e transparente. Pela primeira vez, a paz tem uma economia.",
+  "game2economy.quote": "\"Se a guerra é um mercado, então a paz deve tornar-se uma força económica.\"",
+  "game2economy.summary": "A gamificação não é um truque — é o motor. Ao transformar a paz numa prática diária, criamos o impulso coletivo necessário para construir uma verdadeira economia de paz tokenizada, apoiada pela transparência da blockchain."
 }

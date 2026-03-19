@@ -449,5 +449,20 @@
 
   "cta.download": "NAVA PEACE BEITRETEN",
   "cta.join": "DER BEWEGUNG BEITRETEN",
-  "cta.start": "FRIEDENS-MINING STARTEN"
+  "cta.start": "FRIEDENS-MINING STARTEN",
+
+  "nav.game2economy": "Vom Spiel zur Wirtschaft",
+  "nav.community": "Gemeinschaft",
+  "game2economy.heading": "VOM SPIEL<br/>ZUR WIRTSCHAFT",
+  "game2economy.sub": "Wie eine tägliche Geste zu einer globalen Friedenswirtschaft wird.",
+  "game2economy.step1_title": "DU SPIELST",
+  "game2economy.step1_text": "Jeden Tag öffnest du die App und klickst auf \u201EIch wähle den Frieden.\u201C Diese einfache Geste ist dein tägliches Engagement — und sie mint NAVA Token.",
+  "game2economy.step2_title": "TOKEN WERDEN ERSTELLT",
+  "game2economy.step2_text": "Deine Aktion wird auf der Blockchain aufgezeichnet. Jeder Klick erzeugt Token — eine echte digitale Währung, nicht nur Punkte. Je mehr du spielst, desto mehr verdienst du.",
+  "game2economy.step3_title": "DIE WIRTSCHAFT WÄCHST",
+  "game2economy.step3_text": "Millionen von Spielern schaffen ein massives Token-Ökosystem. 50% finanzieren die Stiftung für humanitäre Hilfe. Der Rest treibt eine neue Wirtschaft an — die erste Friedenswirtschaft.",
+  "game2economy.why_token_title": "Warum Frieden tokenisieren?",
+  "game2economy.why_token": "Ein Token ist eine digitale Werteinheit, wie eine Münze in einem Videospiel — außer dass diese real ist. Wenn du NAVA PEACE spielst, erzeugt deine tägliche Aktion Token auf der Blockchain. Diese Token können getauscht, gespart oder zur Unterstützung humanitärer Anliegen verwendet werden. Frieden zu tokenisieren bedeutet, deinem Engagement einen messbaren, handelbaren und transparenten Wert zu geben. Zum ersten Mal hat Frieden eine Wirtschaft.",
+  "game2economy.quote": "\"Wenn Krieg ein Markt ist, dann muss Frieden zu einer wirtschaftlichen Kraft werden.\"",
+  "game2economy.summary": "Gamification ist kein Gimmick — es ist der Motor. Indem wir Frieden in eine tägliche Praxis verwandeln, schaffen wir den kollektiven Schwung, der nötig ist, um eine echte, tokenisierte Friedenswirtschaft aufzubauen, gestützt durch Blockchain-Transparenz."
 }
