@@ -13,6 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initLangBanner();
   initVideoSound();
   initScreenshotCarousel();
+  initBackToTop();
   I18N.init();
 });
 
@@ -318,4 +319,19 @@ function initJoinForm() {
       btn.style.background = '';
     }, 3000);
   });
+}
+
+/* ================================================
+   BACK TO TOP BUTTON
+   ================================================ */
+function initBackToTop() {
+  const btn = document.getElementById('backToTop');
+  if (!btn) return;
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 600) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  }, { passive: true });
 }
