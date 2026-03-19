@@ -1337,6 +1337,10 @@ section {
   max-width: 900px;
 }
 
+.community-card .reading-window-inner {
+  text-align: center;
+}
+
 .community-card p {
   color: rgba(255, 255, 255, 0.9);
   font-size: 0.95rem;
