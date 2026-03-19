@@ -484,6 +484,52 @@ section {
   margin-top: 10px;
 }
 
+/* ======== CTA BUTTON ======== */
+.cta-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 36px;
+  font-family: var(--font-title);
+  font-size: clamp(0.85rem, 2vw, 1.05rem);
+  letter-spacing: 3px;
+  color: var(--primary);
+  background: var(--white);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15), 0 0 40px rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+  animation: ctaPulse 3s ease-in-out infinite;
+}
+
+.cta-download:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25), 0 0 60px rgba(255, 255, 255, 0.3);
+}
+
+.cta-download svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--primary);
+}
+
+.cta-wrapper {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.cta-wrapper--hero {
+  margin-top: 20px;
+}
+
+@keyframes ctaPulse {
+  0%, 100% { box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15), 0 0 40px rgba(255, 255, 255, 0.2); }
+  50% { box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2), 0 0 60px rgba(255, 255, 255, 0.4); }
+}
+
 /* ======== Floating Language Banner (fixed, auto-hides) ======== */
 .lang-banner {
   position: fixed;
