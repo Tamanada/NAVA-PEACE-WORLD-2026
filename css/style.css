@@ -309,7 +309,7 @@ section {
 
 .section-heading {
   font-family: var(--font-title);
-  font-size: clamp(1.4rem, 3.5vw, 2.2rem);
+  font-size: clamp(1.6rem, 4vw, 2.6rem);
   color: var(--white);
   text-align: center;
   letter-spacing: 5px;
@@ -342,7 +342,7 @@ section {
   box-shadow:
     0 8px 32px rgba(0, 0, 0, 0.1),
     inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto 20px;
   text-align: center;
 }
@@ -355,10 +355,10 @@ section {
   background: var(--glass-bg);
   border: 1.5px solid var(--glass-border);
   border-radius: 28px;
-  padding: 24px 30px;
+  padding: 30px 36px;
   backdrop-filter: blur(var(--glass-blur));
   -webkit-backdrop-filter: blur(var(--glass-blur));
-  max-width: 720px;
+  max-width: 900px;
   margin: 0 auto 20px;
   text-align: center;
 }
@@ -865,7 +865,7 @@ section {
   list-style: none;
   padding: 0;
   text-align: left;
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -916,16 +916,16 @@ section {
 }
 
 .reading-window-inner {
-  padding: 24px 28px;
+  padding: 28px 34px;
   text-align: left;
 }
 
 .reading-window-inner p {
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 14px;
-  line-height: 1.8;
-  letter-spacing: 0.25px;
+  line-height: 1.85;
+  letter-spacing: 0.3px;
 }
 
 /* Dark reading window text */
@@ -1238,7 +1238,7 @@ section {
   border: 1.5px solid var(--glass-border);
   border-radius: 20px;
   padding: 32px 36px;
-  max-width: 720px;
+  max-width: 900px;
   margin: 0 auto;
   backdrop-filter: blur(var(--glass-blur));
   text-align: left;
@@ -1246,9 +1246,11 @@ section {
 
 .app-desc-card h3 {
   font-family: var(--font-title);
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: var(--white);
   margin-bottom: 16px;
+  text-align: center;
+  letter-spacing: 3px;
   letter-spacing: 2.5px;
   text-align: center;
 }
@@ -1331,22 +1333,25 @@ section {
 }
 
 .community-card {
-  text-align: left;
-  max-width: 800px;
+  text-align: center;
+  max-width: 900px;
 }
 
 .community-card p {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 0.92rem;
-  margin-bottom: 12px;
-  letter-spacing: 0.25px;
+  font-size: 0.95rem;
+  margin-bottom: 14px;
+  letter-spacing: 0.3px;
+  line-height: 1.8;
 }
 
 .community-card h3 {
   font-family: var(--font-title);
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--white);
   margin: 22px 0 10px;
+  text-align: center;
+  letter-spacing: 3px;
   letter-spacing: 2.5px;
 }
 
@@ -1589,7 +1594,7 @@ section {
 }
 
 .foundation-circle {
-  max-width: 600px;
+  max-width: 900px;
   margin: 0 auto;
   text-align: center;
 }
@@ -1617,9 +1622,10 @@ section {
 
 .foundation-pillar h3 {
   font-family: var(--font-title);
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--white);
   margin-bottom: 8px;
+  letter-spacing: 3px;
   letter-spacing: 2.5px;
 }
 
@@ -1643,8 +1649,8 @@ section {
   background: var(--glass-bg);
   border: 1.5px solid var(--glass-border);
   border-radius: 20px;
-  padding: 28px 32px;
-  max-width: 780px;
+  padding: 30px 36px;
+  max-width: 900px;
   margin: 0 auto 20px;
   backdrop-filter: blur(var(--glass-blur));
   text-align: left;
@@ -1652,19 +1658,19 @@ section {
 
 .info-card h3 {
   font-family: var(--font-title);
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: var(--white);
   margin-bottom: 14px;
-  letter-spacing: 2.5px;
+  letter-spacing: 3px;
   text-align: center;
 }
 
 .info-card p {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.9);
-  margin-bottom: 10px;
-  line-height: 1.7;
-  letter-spacing: 0.25px;
+  margin-bottom: 12px;
+  line-height: 1.8;
+  letter-spacing: 0.3px;
 }
 
 .info-card .app-features li {
@@ -1792,7 +1798,7 @@ section {
   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
-  max-width: 700px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
