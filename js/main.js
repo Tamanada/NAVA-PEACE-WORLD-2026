@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initJoinForm();
   initLangBanner();
   initVideoSound();
+  initScreenshotCarousel();
   I18N.init();
 });
 
@@ -182,6 +183,120 @@ function initActiveNav() {
   });
 
   sections.forEach(section => observer.observe(section));
+}
+
+/* ---- SCREENSHOT CAROUSEL ---- */
+function initScreenshotCarousel() {
+  const screenshots = document.querySelectorAll('.phone-screenshot img');
+  if (!screenshots.length) return;
+
+  // Build overlay
+  const overlay = document.createElement('div');
+  overlay.className = 'carousel-overlay';
+
+  const closeBtn = document.createElement('button');
+  closeBtn.className = 'carousel-close';
+  closeBtn.innerHTML = '&times;';
+  closeBtn.setAttribute('aria-label', 'Close');
+
+  const prevBtn = document.createElement('button');
+  prevBtn.className = 'carousel-prev';
+  prevBtn.innerHTML = '&#8249;';
+
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'carousel-next';
+  nextBtn.innerHTML = '&#8250;';
+
+  const track = document.createElement('div');
+  track.className = 'carousel-track';
+
+  const dots = document.createElement('div');
+  dots.className = 'carousel-dots';
+
+  // Create slides and dots
+  screenshots.forEach((img, i) => {
+    const slide = document.createElement('img');
+    slide.className = 'carousel-slide';
+    slide.src = img.src;
+    slide.alt = img.alt;
+    slide.dataset.index = i;
+    track.appendChild(slide);
+
+    const dot = document.createElement('button');
+    dot.className = 'carousel-dot';
+    dot.dataset.index = i;
+    dots.appendChild(dot);
+  });
+
+  overlay.appendChild(closeBtn);
+  overlay.appendChild(prevBtn);
+  overlay.appendChild(nextBtn);
+  overlay.appendChild(track);
+  overlay.appendChild(dots);
+  document.body.appendChild(overlay);
+
+  let current = 0;
+  const slides = overlay.querySelectorAll('.carousel-slide');
+  const dotBtns = overlay.querySelectorAll('.carousel-dot');
+
+  function showSlide(index) {
+    current = (index + slides.length) % slides.length;
+    slides.forEach(s => s.classList.remove('active'));
+    dotBtns.forEach(d => d.classList.remove('active'));
+    slides[current].classList.add('active');
+    dotBtns[current].classList.add('active');
+  }
+
+  function open(index) {
+    showSlide(index);
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function close() {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  // Click on screenshot to open
+  screenshots.forEach((img, i) => {
+    img.closest('.phone-screenshot').addEventListener('click', () => open(i));
+  });
+
+  closeBtn.addEventListener('click', close);
+  prevBtn.addEventListener('click', () => showSlide(current - 1));
+  nextBtn.addEventListener('click', () => showSlide(current + 1));
+
+  dotBtns.forEach(dot => {
+    dot.addEventListener('click', () => showSlide(Number(dot.dataset.index)));
+  });
+
+  // Close on backdrop click
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay || e.target === track) close();
+  });
+
+  // Keyboard navigation
+  document.addEventListener('keydown', (e) => {
+    if (!overlay.classList.contains('active')) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft') showSlide(current - 1);
+    if (e.key === 'ArrowRight') showSlide(current + 1);
+  });
+
+  // Touch swipe support
+  let touchStartX = 0;
+  overlay.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+
+  overlay.addEventListener('touchend', (e) => {
+    const diff = touchStartX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) {
+      if (diff > 0) showSlide(current + 1);
+      else showSlide(current - 1);
+    }
+  }, { passive: true });
 }
 
 /* ---- JOIN FORM ---- */
