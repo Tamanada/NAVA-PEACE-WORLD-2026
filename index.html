@@ -7,7 +7,8 @@
   <meta name="description" content="NAVA PEACE WORLD 2026 — Today, Humanity Chooses Peace." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -52,7 +53,7 @@
     <div class="hero-cta-bottom">
       <a href="https://t.me/NavaPeaceBot/app" target="_blank" rel="noopener" class="cta-download" data-i18n="cta.download">
         <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg>
-        DOWNLOAD NAVA PEACE
+        JOIN NAVA PEACE
       </a>
     </div>
   </section>
@@ -98,7 +99,7 @@
   <section class="section-video">
     <div class="container">
       <div class="video-wrapper animate-on-scroll">
-        <video autoplay loop playsinline class="hero-video">
+        <video autoplay loop playsinline preload="none" controls class="hero-video">
           <source src="assets/nava-peace-video.mp4" type="video/mp4" />
         </video>
       </div>
@@ -109,7 +110,7 @@
   <section class="section-today" id="today">
     <div class="container">
       <div class="dove-circle animate-on-scroll">
-        <img src="assets/dove-logo.png" alt="Peace Dove" class="dove-circle-img" />
+        <img src="assets/dove-logo.png" alt="Peace Dove" class="dove-circle-img" loading="lazy" />
       </div>
       <h2 class="title-today animate-on-scroll" data-i18n="today.heading" data-i18n-html>TODAY<br/>HUMANITY<br/>CHOOSES PEACE</h2>
       <p class="subtitle-today animate-on-scroll">
@@ -132,8 +133,14 @@
         </div>
       </div>
 
+      <div class="text-center animate-on-scroll" style="margin-top:20px;">
+        <a href="https://t.me/NavaPeaceBot/app" target="_blank" rel="noopener" class="cta-download" data-i18n="cta.download">
+          JOIN NAVA PEACE
+        </a>
+      </div>
+
       <!-- Dove row -->
-      <div class="doves-row animate-on-scroll">&#x1F54A; &#x1F54A; &#x1F54A; &#x1F54A; &#x1F54A; &#x1F54A; &#x1F54A;</div>
+      <div class="doves-row animate-on-scroll">&#x1F54A; &#x1F54A; &#x1F54A; &#x1F54A; &#x1F54A;</div>
     </div>
   </section>
 
@@ -142,7 +149,7 @@
     <div class="container">
       <div class="card-white animate-on-scroll">
         <div class="card-label">
-          <img src="assets/dove-logo.png" alt="Peace Dove" class="dove-circle-img" />
+          <img src="assets/dove-logo.png" alt="Peace Dove" class="dove-circle-img" loading="lazy" />
         </div>
         <h2 class="bicolor-title">
           <span class="pink-txt" data-i18n="first.heading" data-i18n-html>NAVA PEACE IS THE WORLD'S FIRST TECHNOLOGICAL TOOL DESIGNED TO <strong>MAKE PEACE</strong> VISIBLE <em>FOR THE FIRST TIME IN HUMAN HISTORY</em></span>
@@ -234,7 +241,7 @@
 
       <div class="foundation-circle animate-on-scroll">
         <div class="foundation-dove">
-          <img src="assets/dove-logo.png" alt="Peace Dove" class="foundation-dove-img" />
+          <img src="assets/dove-logo.png" alt="Peace Dove" class="foundation-dove-img" loading="lazy" />
         </div>
         <div class="foundation-pillar">
           <h3 data-i18n="foundation.h_humanitarian">Humanitarian Support</h3>
@@ -413,8 +420,8 @@
 
       <div class="blockchain-img-wrapper animate-on-scroll">
         <div class="blockchain-img-container">
-          <img src="assets/blockchain.png" alt="NAVA PEACE Blockchain" class="blockchain-img" />
-          <img src="assets/dove-logo.png" alt="NAVA PEACE Logo" class="blockchain-logo-overlay" />
+          <img src="assets/blockchain.png" alt="NAVA PEACE Blockchain" class="blockchain-img" loading="lazy" />
+          <img src="assets/dove-logo.png" alt="NAVA PEACE Logo" class="blockchain-logo-overlay" loading="lazy" />
         </div>
       </div>
 
@@ -962,7 +969,7 @@
       <div class="cta-wrapper animate-on-scroll">
         <a href="https://t.me/NavaPeaceBot/app" target="_blank" rel="noopener" class="cta-download" data-i18n="cta.download">
           <svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg>
-          DOWNLOAD NAVA PEACE
+          JOIN NAVA PEACE
         </a>
       </div>
     </div>
@@ -989,7 +996,7 @@
     </div>
   </footer>
 
-  <script src="js/i18n.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/i18n.js" defer></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>
