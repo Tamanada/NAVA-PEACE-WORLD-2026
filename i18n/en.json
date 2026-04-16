@@ -11,13 +11,8 @@
   "nav.howtoplay": "How to Play",
   "nav.roadmap": "Roadmap",
   "nav.founder": "Founder",
-
   "hero.label": "NAVA PEACE",
   "hero.title": "BORN TO GROW",
-  "hero.slogan1": "LET'S MAKE",
-  "hero.slogan2": "PEACE",
-  "hero.slogan3": "GREAT AGAIN",
-
   "today.heading": "TODAY<br/>HUMANITY<br/>CHOOSES PEACE",
   "today.subtitle": "NAVA PEACE is a global movement that unites millions of hearts through a simple daily act of peace.",
   "today.why": "WHY SHOULD WE ACT?",
@@ -26,7 +21,6 @@
   "today.how_text": "We created a global system that turns simple daily actions into a visible, connected movement.",
   "today.what": "WHAT SOLUTION DO WE OFFER?",
   "today.what_text": "A platform, a community, and a technology that allow anyone to join and spread peace worldwide.",
-
   "first.heading": "NAVA PEACE IS THE WORLD'S FIRST TECHNOLOGICAL TOOL DESIGNED TO <strong>MAKE PEACE</strong> VISIBLE <em>FOR THE FIRST TIME IN HUMAN HISTORY</em>",
   "first.by": "BY:",
   "first.li1": "Making every human being a beacon of peace.",
@@ -37,7 +31,6 @@
   "first.li6": "Revealing what humanity has never been able to measure: peace.",
   "first.li7": "Transforming peace into a collective force.",
   "first.li8": "Making peace an undeniable fact.",
-
   "app.heading": "THE NAVA PEACE APP",
   "app.subheading": "The NAVA PEACE initiative will use an app to unite the world.",
   "app.phone1": "A simple app for all,<br/>the quest time for PEACE.",
@@ -57,10 +50,8 @@
   "app.feat4": "Action Board",
   "app.feat5": "Integrated Wallet and NAVA Blockchain",
   "app.feat6": "Community and Humanitarian Tools...",
-
   "vision.heading": "OUR VISION FOR<br/>NAVA PEACE",
   "vision.text": "NAVA PEACE aims to become the first global <strong>WEB3 ecosystem</strong> entirely built around <strong>peace, dignity</strong> and <strong>solidarity</strong>.",
-
   "community.title": "Global Community",
   "community.p1": "Everyone can join us. We will give PEACE the value it deserves. Everyone, regardless of country, age, or religion, is welcome at NAVA PEACE. Peace is everyone's business. There's no point in talking about climate change if peace doesn't take hold.",
   "community.quote1": "\"If war is a market, then peace must become an economic force.\"",
@@ -76,7 +67,6 @@
   "community.p_consensus2": "What is consensus? Consensus means that everyone agrees on the same truth. Printed paper = money.",
   "community.p_consensus3": "So let's take the next step: NAVA PEACE is the first economy of peace.",
   "community.p_web3": "We will create a network of people who recognise that the NAVA PEACE token is a currency, and that we can use it with complete confidence, just like any fiat currency. Welcome to Web3.",
-
   "manifesto.heading": "PHILOSOPHICAL<br/>MANIFESTO",
   "manifesto.quote1": "\"Every day, humanity has a choice.<br/>Today, we choose peace.\"",
   "manifesto.p1": "There is a moment, invisible yet decisive, when a civilization chooses what it wants to become. This moment is neither political, nor religious, nor economic. It is internal, silent, individual.",
@@ -116,7 +106,6 @@
   "manifesto.li19": "And every day, with a simple gesture,",
   "manifesto.li20": "we write together the most beautiful sentence in the history of humankind:",
   "manifesto.quote3": "\"Today, for me, for you,<br/>for us, I choose peace.\"",
-
   "blockchain.heading": "NAVA PEACE BLOCKCHAIN",
   "blockchain.p1": "Our blockchain brings together all the essential pillars of a next-generation infrastructure. Designed for uncompromising security, seamless scalability, ultra-low fees, and radical eco-efficiency, it sets a new benchmark for responsible innovation.",
   "blockchain.stat": "100 times less energy-intensive than the Bitcoin blockchain.",
@@ -163,7 +152,6 @@
   "blockchain.nut_li2": "\"The Forge\" builds the modular intelligence that makes it possible.",
   "blockchain.nut_li3": "\"ChessChain\" is the first demonstration.",
   "blockchain.nut_li4": "We are building the fractal GPS of the AI age.",
-
   "foundation.heading": "NAVA PEACE<br/>FOUNDATION",
   "foundation.subheading": "A transparent and action-oriented foundation that supports victims of war and funds peace initiatives.",
   "foundation.h_humanitarian": "Humanitarian Support",
@@ -186,7 +174,6 @@
   "foundation.li8": "a global fleet of volunteers ready to respond",
   "foundation.li9": "floating farms and much more...",
   "foundation.p3": "A global rapid response network will be deployed to provide immediate assistance to crisis zones.",
-
   "howtoplay.heading": "EVERYTHING YOU NEED TO KNOW.",
   "howtoplay.sub1": "How to play? How to Improve?",
   "howtoplay.sub2": "How to win? And most importantly... why?",
@@ -201,7 +188,6 @@
   "howtoplay.intro_p8": "I hope that millions, billions of us will play every day and share with our friends.",
   "howtoplay.intro_p9": "Every time you open the app to play, you are choosing a better future for us and for future generations.",
   "howtoplay.intro_p10": "Consciously, you will be participating in a new form of economy: the economy of peace.",
-
   "howtoplay.start_heading": "HOW TO START<br/>PLAYING NAVA PEACE",
   "howtoplay.start_title": "How to start playing NAVA PEACE?",
   "howtoplay.start_p1": "To begin:",
@@ -210,7 +196,6 @@
   "howtoplay.start_li3": "Choose your avatar",
   "howtoplay.start_li4": "You will automatically receive your first badge: PEACE LOVER",
   "howtoplay.start_welcome": "WELCOME to the NAVA PEACE adventure!",
-
   "howtoplay.tokens_title": "How do I get my first NAVA tokens?",
   "howtoplay.tokens_p1": "Your daily PEACE LOVER mission is to:",
   "howtoplay.tokens_li1": "Open the app once every 24 hours (more often as you level up)",
@@ -218,7 +203,6 @@
   "howtoplay.tokens_congrats": "Congratulations! Your daily action for peace is complete! See you tomorrow!",
   "howtoplay.tokens_tip1": "Tip: Set a daily alarm so you never miss your mining session.",
   "howtoplay.tokens_tip2": "By inviting your friends with your referral code, you earn extra tokens.",
-
   "howtoplay.invite_title": "How does the invitation system Work?",
   "howtoplay.invite_p1": "After sending an invitation to your friends with your unique code, they become active when they start playing!",
   "howtoplay.invite_p2": "1 active friend = reward = 1 token per active friend",
@@ -227,7 +211,6 @@
   "howtoplay.invite_p5": "Get ready to earn free NFTs (level badges) and climb the ranks!",
   "howtoplay.invite_p6": "The more invitations you send, the greater your chances of receiving FREE NFTs and seeing your rewards skyrocket.",
   "howtoplay.invite_p7": "1 token per active friend is huge. Since mining will be deflationary, the invitation token will always be worth it.",
-
   "howtoplay.nft_title": "How do I get NAVA PEACE NFTs?",
   "howtoplay.nft_p1": "NFTs are available from the first day of the gamification app's launch.",
   "howtoplay.nft_p2": "What are the different levels?",
@@ -241,9 +224,8 @@
   "howtoplay.ref3": "TBD referrals = 1 PEACE GUARDIAN",
   "howtoplay.ref4": "TBD referrals = 1 PEACE ILLUMINATOR",
   "howtoplay.ref5": "TBD referrals = 1 PEACE LEGEND",
-  "howtoplay.ref6": "Instantly upgrade from LOVER \u2192 LEGEND",
+  "howtoplay.ref6": "Instantly upgrade from LOVER → LEGEND",
   "howtoplay.ref7": "Exclusive access & global privileges",
-
   "howtoplay.nft_why_title": "Why are NFTs important?",
   "howtoplay.nft_why_p1": "Because they allow you to:",
   "howtoplay.nft_why_li1": "mine faster",
@@ -252,34 +234,30 @@
   "howtoplay.nft_why_li4": "unlock exclusive rights and discounts",
   "howtoplay.nft_why_p2": "Later, perhaps, have the chance to serve on the foundation's board of directors for a season.",
   "howtoplay.nft_why_p3": "An NFT = a mining accelerator, a future investment, a proof of trust = an unconditional commitment",
-
   "howtoplay.mining_title": "What is mining in NAVA PEACE? How does it Work?",
   "howtoplay.mining_p1": "Phase 1: Imagine NAVA PEACE as a giant global video game where everyone strives to make the planet a little kinder each day, with a common end goal:",
   "howtoplay.mining_p2": "To create a peace economy by connecting the entire World Within a single community.",
   "howtoplay.mining_p3": "To share \"I choose peace today, for everyone, everywhere in the world,\" all you have to do is tap a magic button in the app.",
   "howtoplay.mining_p4": "And when you tap that button... something amazing happens.<br/>You earn NAVA tokens. This is called mining. Every transaction is recorded on the blockchain. It's irreversible, immutable, and anonymous.",
-
   "howtoplay.what_mining_title": "So, What is mining?",
   "howtoplay.what_mining_p1": "Mining is a process that takes place on the blockchain with every peaceful action you perform. Each action is recorded and visible to all users connected to the blockchain. All actions are tallied and linked to a wallet: yours.",
   "howtoplay.what_mining_p2": "You don't need a machine or electricity.",
   "howtoplay.what_mining_p3": "All you need is your phone and your willingness to participate.",
-
   "howtoplay.how_mining_title": "How does mining Work in NAVA PEACE?",
   "howtoplay.how_mining_p1": "You are rewarded for:",
   "howtoplay.how_mining_li1": "Your daily mining activity",
-  "howtoplay.how_mining_li2": "If you return every day \u2192 you earn more.",
+  "howtoplay.how_mining_li2": "If you return every day → you earn more.",
   "howtoplay.how_mining_li3": "By reaching referral milestones, you will receive a free NFT allowing you to boost your mining speed!",
-  "howtoplay.how_mining_p2": "Your friends' activity<br/>If you invite friends \u2192 you earn more.",
+  "howtoplay.how_mining_p2": "Your friends' activity<br/>If you invite friends → you earn more.",
   "howtoplay.how_mining_p3": "But your friends must play to receive your daily reward for their participation. Teamwork! Human chain!<br/>If you are consistent (streaks), you earn more!",
   "howtoplay.how_mining_p4": "Streak Bonus: FREE tokens:",
-  "howtoplay.how_mining_streak1": "\u2265 7 days: +2 tokens",
-  "howtoplay.how_mining_streak2": "\u2265 14 days: +5 tokens",
-  "howtoplay.how_mining_streak3": "\u2265 21 days: +8 tokens",
-  "howtoplay.how_mining_streak4": "\u2265 28 days: +10 tokens",
-  "howtoplay.how_mining_p5": "If you reach higher levels \u2192 you can mine faster.",
+  "howtoplay.how_mining_streak1": "≥ 7 days: +2 tokens",
+  "howtoplay.how_mining_streak2": "≥ 14 days: +5 tokens",
+  "howtoplay.how_mining_streak3": "≥ 21 days: +8 tokens",
+  "howtoplay.how_mining_streak4": "≥ 28 days: +10 tokens",
+  "howtoplay.how_mining_p5": "If you reach higher levels → you can mine faster.",
   "howtoplay.how_mining_p6": "Does everyone earn the same amount?",
   "howtoplay.how_mining_p7": "Yes and no.<br/>The rules of the game are the same for everyone, but if some have many friends or invest in NFTs to progress faster, then they will earn significantly more tokens.",
-
   "howtoplay.halving_title": "Every 30 days, the mining reward will be halved.",
   "howtoplay.halving_p1": "This system ensures fairness for everyone and rewards your actions: it's called the halving.",
   "howtoplay.halving_p2": "If rewards remained high indefinitely, the system would be flooded with tokens and their value would decrease significantly. The halving slows production over time, preserves scarcity, controls inflation, and rewards early participants, while ensuring economic stability for everyone.",
@@ -292,7 +270,6 @@
   "howtoplay.halving_r6": "From day 151 to day 180, the difficulty is 32.<br/>Each click on the \"Peace\" button earns you 0.03125 tokens.",
   "howtoplay.halving_p4": "HALVING the tokens is necessary to preserve their value and fairness.",
   "howtoplay.halving_p5": "Together, let's build a peaceful economy through millions of peaceful actions.",
-
   "howtoplay.season_title": "What happens at the end of SEASON 1?",
   "howtoplay.season_p1": "Season 1 will last 180 days.",
   "howtoplay.season_p2": "During these 180 days, YOU, the miners, create the economic base of the NAVA PEACE token.<br/>This represents 20% of the total supply issued.",
@@ -303,7 +280,6 @@
   "howtoplay.season_li2": "20% Liquidity Pool",
   "howtoplay.season_li3": "14% Strategic Reserve",
   "howtoplay.season_li4": "6% Founder/Creator/Chairman",
-
   "howtoplay.access_title": "When will I be able to access my tokens?",
   "howtoplay.access_p1": "You will have access to your tokens at the end of the 180-day season.<br/>At the end of Season 1:",
   "howtoplay.access_li1": "Our blockchain will be operational.",
@@ -316,7 +292,6 @@
   "howtoplay.access_li7": "order a NAVA PEACE credit card from NAVA PEACE BANK;",
   "howtoplay.access_li8": "purchase NAVA PEACE insurance;",
   "howtoplay.access_li9": "transfer NAVA tokens, donate NAVA PEACE tokens to your favorite NGO...",
-
   "howtoplay.wallet_title": "How is your digital Wallet secured?",
   "howtoplay.wallet_p1": "A digital wallet is generated automatically.",
   "howtoplay.wallet_li1": "To secure it, a 24-word recovery phrase is used.",
@@ -328,17 +303,14 @@
   "howtoplay.wallet_li6": "a private key,",
   "howtoplay.wallet_li7": "a recovery phrase (seed phrase),",
   "howtoplay.wallet_li8": "and associates it with the user.",
-
   "howtoplay.phase2": "In Phase 2, We will launch the \"Nava Peace World\" app, a super app connecting you to the entire market of PEACE LOVERS WorldWide.",
-
-  "roadmap.heading": "NAVA PEACE ROADMAP<br/>\u2013 2025 \u2192 2026 \u2013",
-  "roadmap.phase1_badge": "PHASE 1 \u2014 GENESIS (Q4 2025)",
+  "roadmap.heading": "NAVA PEACE ROADMAP<br/>– 2025 → 2026 –",
+  "roadmap.phase1_badge": "PHASE 1 — GENESIS (Q4 2025)",
   "roadmap.phase1_sub": "Birth of the movement + technical foundations.",
   "roadmap.phase1_li1": "June 2025: The vision of the need to create a peace app.",
   "roadmap.phase1_li2": "October 25, 2025: Creation of the first viable prototype.",
   "roadmap.phase1_p1": "Creation of the NAVA PEACE concept.<br/>Philosophical manifesto and brand identity.<br/>Development of the application (MVP).<br/>Launch of the official website.<br/>Launch of the SEEDS program (1 founding investor)",
-
-  "roadmap.phase2_badge": "PHASE 2 \u2014 CREATION AND LAUNCH OF THE NAVA PEACE APPLICATION (Q1-Q2 2026)",
+  "roadmap.phase2_badge": "PHASE 2 — CREATION AND LAUNCH OF THE NAVA PEACE APPLICATION (Q1-Q2 2026)",
   "roadmap.phase2_li1": "Company creation, licensing...",
   "roadmap.phase2_li2": "Team recruitment",
   "roadmap.phase2_p1": "Creation of the NAVA PEACE application",
@@ -394,8 +366,7 @@
   "roadmap.phase2_goal": "180-day goal:<br/>500 million to 1 billion users",
   "roadmap.phase2_foundation1": "Creation of the Peace Foundation (support for victims of war and natural disasters)",
   "roadmap.phase2_foundation2": "Establishment of the Peace Council (advisers and experts)",
-
-  "roadmap.phase3_badge": "PHASE 3 \u2014 ECONOMY AND BLOCKCHAIN (Q3 2026)",
+  "roadmap.phase3_badge": "PHASE 3 — ECONOMY AND BLOCKCHAIN (Q3 2026)",
   "roadmap.phase3_li1": "Launch of the NAVA PEACE blockchain (main network)",
   "roadmap.phase3_li2": "Official launch of the NAVA PEACE token and establishment of a real economy",
   "roadmap.phase3_li3": "Official deployment of the NAVA PEACE WORLD application",
@@ -422,8 +393,7 @@
   "roadmap.phase3_merchant3": "Offer discounts or rewards",
   "roadmap.phase3_p4": "Development of the DAO governance system<br/>First humanitarian missions funded by the Peace Foundation",
   "roadmap.phase3_goal": "Goal: 3 billion users",
-
-  "roadmap.phase4_badge": "PHASE 4 \u2014 GLOBAL IMPACT (2027-2030)",
+  "roadmap.phase4_badge": "PHASE 4 — GLOBAL IMPACT (2027-2030)",
   "roadmap.phase4_p1": "NAVA PEACE becomes a true global peace economy.",
   "roadmap.phase4_li1": "International adoption: merchants, NGOs, institutions",
   "roadmap.phase4_li2": "NAVA Blockchain recognized as a \"pro-peace\" exchange system",
@@ -434,7 +404,6 @@
   "roadmap.phase4_li7": "Goal: 1 to 3 billion citizens of peace",
   "roadmap.phase4_li8": "Creation of the Peace Index, a global measure of impact",
   "roadmap.phase4_li9": "Institutional recognition (UN, UNESCO, partner governments)",
-
   "founder.heading": "ABOUT THE FOUNDER",
   "founder.p1": "My name is Alan August, I am an entrepreneur, globetrotter, life lover and world citizen. Witnessing over the years all these suffering, I asked to myself and to my friends: How, in 2025, cannot we live in peace, how ?",
   "founder.p2": "NAVA PEACE is my answer and my humble invitation, to change the world.",
@@ -444,14 +413,11 @@
   "founder.p5": "There is not better investment than a world at peace.",
   "founder.p6": "With NAVA PEACE App each tap is a whisper of peace in becoming. Millions of whispers become a voice the world cannot ignore.",
   "founder.signature": "Alan August<br/>Founder, NAVA PEACE",
-
-  "footer.copyright": "\u00a9 2026 NAVA PEACE \u2014 All Rights Reserved",
+  "footer.copyright": "© 2026 NAVA PEACE — All Rights Reserved",
   "footer.tagline": "Built with love, courage and a deep belief that peace begins within.",
-
   "cta.download": "JOIN NAVA PEACE",
   "cta.join": "JOIN THE MOVEMENT",
   "cta.start": "START MINING PEACE",
-
   "nav.game2economy": "Game to Economy",
   "nav.community": "Community",
   "game2economy.heading": "FROM GAME<br/>TO ECONOMY",
@@ -466,7 +432,6 @@
   "game2economy.why_token": "A token is a digital unit of value, like a coin in a video game — except this one is real. When you play NAVA PEACE, your daily action creates tokens on the blockchain. These tokens can be exchanged, saved, or used to support humanitarian causes. Tokenizing peace means giving your commitment a measurable, tradable, and transparent value. For the first time, peace has an economy.",
   "game2economy.quote": "\"If war is a market, then peace must become an economic force.\"",
   "game2economy.summary": "Gamification is not a gimmick — it's the engine. By turning peace into a daily practice, we create the collective momentum needed to build a real, tokenized peace economy backed by blockchain transparency.",
-
   "arch.heading": "⚓ NAVA PEACE ARCH",
   "arch.subheading": "A ship. A platform. A city of life.",
   "arch.intro": "The NAVA PEACE ARCH is the heart of everything we do on the ground. A ship is not just a vessel — it is a city, a hospital, a farm, a shelter, and a statement. It arrives where it is needed, does what needs to be done, and moves on.",

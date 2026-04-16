@@ -52,7 +52,7 @@
       <div class="hero-slogan">
         <span class="slogan-line slogan-line--1" data-i18n="hero.slogan1">LET'S MAKE</span>
         <span class="slogan-line slogan-line--peace" data-i18n="hero.slogan2">PEACE</span>
-        <span class="slogan-line slogan-line--3" data-i18n="hero.slogan3">GREAT AGAIN</span>
+        <span class="slogan-line slogan-line--cycle" id="sloganCycle">VISIBLE</span>
       </div>
     </div>
     <div class="hero-cta-bottom">
@@ -1119,5 +1119,22 @@
 
   <script src="js/i18n.js" defer></script>
   <script src="js/main.js" defer></script>
+  <script>
+    (function() {
+      var words = ['VISIBLE', 'UNDENIABLE', 'INEVITABLE', 'UNSTOPPABLE', 'FINALLY REAL'];
+      var el = document.getElementById('sloganCycle');
+      if (!el) return;
+      var idx = Math.floor(Math.random() * words.length);
+      el.textContent = words[idx];
+      setInterval(function() {
+        el.classList.add('slogan-cycle-out');
+        setTimeout(function() {
+          idx = (idx + 1) % words.length;
+          el.textContent = words[idx];
+          el.classList.remove('slogan-cycle-out');
+        }, 450);
+      }, 2800);
+    })();
+  </script>
 </body>
 </html>

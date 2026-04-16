@@ -525,6 +525,24 @@ section {
   animation-delay: 3.8s;
 }
 
+/* Rotating slogan */
+.slogan-line--cycle {
+  font-size: clamp(0.9rem, 2.5vw, 1.3rem);
+  color: rgba(255, 255, 255, 0.9);
+  letter-spacing: 6px;
+  animation: sloganFadeIn 1.2s ease forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+  transition: opacity 0.45s ease, transform 0.45s ease;
+  display: block;
+  min-height: 1.5em;
+}
+
+.slogan-line--cycle.slogan-cycle-out {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
 @keyframes sloganFadeIn {
   0% {
     opacity: 0;
