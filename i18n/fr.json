@@ -11,13 +11,11 @@
   "nav.howtoplay": "Comment Jouer",
   "nav.roadmap": "Feuille de Route",
   "nav.founder": "Fondateur",
-
   "hero.label": "NAVA PEACE",
   "hero.title": "NÉS POUR GRANDIR",
   "hero.slogan1": "RENDONS LA",
   "hero.slogan2": "PAIX",
   "hero.slogan3": "GRANDE À NOUVEAU",
-
   "today.heading": "AUJOURD'HUI<br/>L'HUMANITÉ<br/>CHOISIT LA PAIX",
   "today.subtitle": "NAVA PEACE est un mouvement mondial qui unit des millions de cœurs à travers un simple acte quotidien de paix.",
   "today.why": "POURQUOI AGIR ?",
@@ -26,7 +24,6 @@
   "today.how_text": "Nous avons créé un système mondial qui transforme de simples actions quotidiennes en un mouvement visible et connecté.",
   "today.what": "QUELLE SOLUTION PROPOSONS-NOUS ?",
   "today.what_text": "Une plateforme, une communauté et une technologie qui permettent à chacun de rejoindre et diffuser la paix dans le monde.",
-
   "first.heading": "NAVA PEACE EST LE PREMIER OUTIL TECHNOLOGIQUE AU MONDE CONÇU POUR <strong>RENDRE LA PAIX</strong> VISIBLE <em>POUR LA PREMIÈRE FOIS DANS L'HISTOIRE DE L'HUMANITÉ</em>",
   "first.by": "EN :",
   "first.li1": "Faisant de chaque être humain un phare de paix.",
@@ -37,7 +34,6 @@
   "first.li6": "Révélant ce que l'humanité n'a jamais pu mesurer : la paix.",
   "first.li7": "Transformant la paix en une force collective.",
   "first.li8": "Faisant de la paix un fait indéniable.",
-
   "app.heading": "L'APPLICATION NAVA PEACE",
   "app.subheading": "L'initiative NAVA PEACE utilisera une application pour unir le monde.",
   "app.phone1": "Une application simple pour tous,<br/>le temps de la quête pour la PAIX.",
@@ -57,10 +53,8 @@
   "app.feat4": "Tableau d'actions",
   "app.feat5": "Portefeuille intégré et Blockchain NAVA",
   "app.feat6": "Outils communautaires et humanitaires...",
-
   "vision.heading": "NOTRE VISION POUR<br/>NAVA PEACE",
   "vision.text": "NAVA PEACE aspire à devenir le premier <strong>écosystème WEB3</strong> mondial entièrement construit autour de la <strong>paix, la dignité</strong> et la <strong>solidarité</strong>.",
-
   "community.title": "Communauté Mondiale",
   "community.p1": "Tout le monde peut nous rejoindre. Nous donnerons à la PAIX la valeur qu'elle mérite. Chacun, quel que soit son pays, son âge ou sa religion, est le bienvenu chez NAVA PEACE. La paix est l'affaire de tous. Il ne sert à rien de parler de changement climatique si la paix ne s'installe pas.",
   "community.quote1": "\"Si la guerre est un marché, alors la paix doit devenir une force économique.\"",
@@ -76,7 +70,6 @@
   "community.p_consensus2": "Qu'est-ce que le consensus ? Le consensus signifie que tout le monde s'accorde sur la même vérité. Papier imprimé = argent.",
   "community.p_consensus3": "Alors franchissons l'étape suivante : NAVA PEACE est la première économie de la paix.",
   "community.p_web3": "Nous créerons un réseau de personnes qui reconnaissent que le token NAVA PEACE est une monnaie, et que nous pouvons l'utiliser en toute confiance, comme n'importe quelle monnaie fiduciaire. Bienvenue dans le Web3.",
-
   "manifesto.heading": "MANIFESTE<br/>PHILOSOPHIQUE",
   "manifesto.quote1": "\"Chaque jour, l'humanité a un choix.<br/>Aujourd'hui, nous choisissons la paix.\"",
   "manifesto.p1": "Il y a un moment, invisible mais décisif, où une civilisation choisit ce qu'elle veut devenir. Ce moment n'est ni politique, ni religieux, ni économique. Il est intérieur, silencieux, individuel.",
@@ -116,7 +109,6 @@
   "manifesto.li19": "Et chaque jour, par un simple geste,",
   "manifesto.li20": "nous écrivons ensemble la plus belle phrase de l'histoire de l'humanité :",
   "manifesto.quote3": "\"Aujourd'hui, pour moi, pour toi,<br/>pour nous, je choisis la paix.\"",
-
   "blockchain.heading": "BLOCKCHAIN NAVA PEACE",
   "blockchain.p1": "Notre blockchain réunit tous les piliers essentiels d'une infrastructure de nouvelle génération. Conçue pour une sécurité sans compromis, une scalabilité fluide, des frais ultra-bas et une éco-efficacité radicale, elle établit un nouveau standard pour l'innovation responsable.",
   "blockchain.stat": "100 fois moins énergivore que la blockchain Bitcoin.",
@@ -163,7 +155,6 @@
   "blockchain.nut_li2": "\"The Forge\" construit l'intelligence modulaire qui le rend possible.",
   "blockchain.nut_li3": "\"ChessChain\" en est la première démonstration.",
   "blockchain.nut_li4": "Nous construisons le GPS fractal de l'ère de l'IA.",
-
   "foundation.heading": "FONDATION<br/>NAVA PEACE",
   "foundation.subheading": "Une fondation transparente et orientée vers l'action qui soutient les victimes de guerre et finance des initiatives de paix.",
   "foundation.h_humanitarian": "Soutien Humanitaire",
@@ -186,7 +177,6 @@
   "foundation.li8": "une flotte mondiale de volontaires prêts à intervenir",
   "foundation.li9": "fermes flottantes et bien plus encore...",
   "foundation.p3": "Un réseau mondial de réponse rapide sera déployé pour fournir une assistance immédiate aux zones de crise.",
-
   "howtoplay.heading": "TOUT CE QUE VOUS DEVEZ SAVOIR.",
   "howtoplay.sub1": "Comment jouer ? Comment s'améliorer ?",
   "howtoplay.sub2": "Comment gagner ? Et surtout... pourquoi ?",
@@ -201,7 +191,6 @@
   "howtoplay.intro_p8": "J'espère que des millions, des milliards d'entre nous joueront chaque jour et partageront avec nos amis.",
   "howtoplay.intro_p9": "Chaque fois que vous ouvrez l'application pour jouer, vous choisissez un avenir meilleur pour nous et pour les générations futures.",
   "howtoplay.intro_p10": "Consciemment, vous participerez à une nouvelle forme d'économie : l'économie de la paix.",
-
   "howtoplay.start_heading": "COMMENT COMMENCER<br/>À JOUER À NAVA PEACE",
   "howtoplay.start_title": "Comment commencer à jouer à NAVA PEACE ?",
   "howtoplay.start_p1": "Pour commencer :",
@@ -210,7 +199,6 @@
   "howtoplay.start_li3": "Choisissez votre avatar",
   "howtoplay.start_li4": "Vous recevrez automatiquement votre premier badge : PEACE LOVER",
   "howtoplay.start_welcome": "BIENVENUE dans l'aventure NAVA PEACE !",
-
   "howtoplay.tokens_title": "Comment obtenir mes premiers tokens NAVA ?",
   "howtoplay.tokens_p1": "Votre mission quotidienne de PEACE LOVER est de :",
   "howtoplay.tokens_li1": "Ouvrir l'application une fois toutes les 24 heures (plus souvent au fur et à mesure que vous montez en niveau)",
@@ -218,7 +206,6 @@
   "howtoplay.tokens_congrats": "Félicitations ! Votre action quotidienne pour la paix est accomplie ! À demain !",
   "howtoplay.tokens_tip1": "Conseil : Réglez une alarme quotidienne pour ne jamais manquer votre session de minage.",
   "howtoplay.tokens_tip2": "En invitant vos amis avec votre code de parrainage, vous gagnez des tokens supplémentaires.",
-
   "howtoplay.invite_title": "Comment fonctionne le système d'invitation ?",
   "howtoplay.invite_p1": "Après avoir envoyé une invitation à vos amis avec votre code unique, ils deviennent actifs lorsqu'ils commencent à jouer !",
   "howtoplay.invite_p2": "1 ami actif = récompense = 1 token par ami actif",
@@ -227,7 +214,6 @@
   "howtoplay.invite_p5": "Préparez-vous à gagner des NFTs gratuits (badges de niveau) et à gravir les échelons !",
   "howtoplay.invite_p6": "Plus vous envoyez d'invitations, plus vos chances de recevoir des NFTs GRATUITS augmentent et plus vos récompenses explosent.",
   "howtoplay.invite_p7": "1 token par ami actif, c'est énorme. Puisque le minage sera déflationniste, le token d'invitation en vaudra toujours la peine.",
-
   "howtoplay.nft_title": "Comment obtenir des NFTs NAVA PEACE ?",
   "howtoplay.nft_p1": "Les NFTs sont disponibles dès le premier jour du lancement de l'application de gamification.",
   "howtoplay.nft_p2": "Quels sont les différents niveaux ?",
@@ -243,7 +229,6 @@
   "howtoplay.ref5": "TBD parrainages = 1 PEACE LEGEND",
   "howtoplay.ref6": "Passez instantanément de LOVER → LEGEND",
   "howtoplay.ref7": "Accès exclusif et privilèges mondiaux",
-
   "howtoplay.nft_why_title": "Pourquoi les NFTs sont-ils importants ?",
   "howtoplay.nft_why_p1": "Parce qu'ils vous permettent de :",
   "howtoplay.nft_why_li1": "miner plus rapidement",
@@ -252,18 +237,15 @@
   "howtoplay.nft_why_li4": "débloquer des droits et des réductions exclusifs",
   "howtoplay.nft_why_p2": "Plus tard, peut-être, avoir la chance de siéger au conseil d'administration de la fondation pour une saison.",
   "howtoplay.nft_why_p3": "Un NFT = un accélérateur de minage, un investissement futur, une preuve de confiance = un engagement inconditionnel",
-
   "howtoplay.mining_title": "Qu'est-ce que le minage dans NAVA PEACE ? Comment ça marche ?",
   "howtoplay.mining_p1": "Phase 1 : Imaginez NAVA PEACE comme un immense jeu vidéo mondial où chacun s'efforce de rendre la planète un peu plus bienveillante chaque jour, avec un objectif final commun :",
   "howtoplay.mining_p2": "Créer une économie de la paix en connectant le monde entier au sein d'une seule communauté.",
   "howtoplay.mining_p3": "Pour partager « Je choisis la paix aujourd'hui, pour tous, partout dans le monde », il suffit d'appuyer sur un bouton magique dans l'application.",
   "howtoplay.mining_p4": "Et quand vous appuyez sur ce bouton... quelque chose d'incroyable se produit.<br/>Vous gagnez des tokens NAVA. C'est ce qu'on appelle le minage. Chaque transaction est enregistrée sur la blockchain. C'est irréversible, immuable et anonyme.",
-
   "howtoplay.what_mining_title": "Alors, qu'est-ce que le minage ?",
   "howtoplay.what_mining_p1": "Le minage est un processus qui se déroule sur la blockchain à chaque action pacifique que vous effectuez. Chaque action est enregistrée et visible par tous les utilisateurs connectés à la blockchain. Toutes les actions sont comptabilisées et liées à un portefeuille : le vôtre.",
   "howtoplay.what_mining_p2": "Vous n'avez pas besoin de machine ni d'électricité.",
   "howtoplay.what_mining_p3": "Tout ce dont vous avez besoin, c'est votre téléphone et votre volonté de participer.",
-
   "howtoplay.how_mining_title": "Comment fonctionne le minage dans NAVA PEACE ?",
   "howtoplay.how_mining_p1": "Vous êtes récompensé pour :",
   "howtoplay.how_mining_li1": "Votre activité de minage quotidienne",
@@ -279,7 +261,6 @@
   "howtoplay.how_mining_p5": "Si vous atteignez des niveaux supérieurs → vous pouvez miner plus rapidement.",
   "howtoplay.how_mining_p6": "Est-ce que tout le monde gagne la même chose ?",
   "howtoplay.how_mining_p7": "Oui et non.<br/>Les règles du jeu sont les mêmes pour tous, mais si certains ont beaucoup d'amis ou investissent dans des NFTs pour progresser plus vite, alors ils gagneront considérablement plus de tokens.",
-
   "howtoplay.halving_title": "Tous les 30 jours, la récompense de minage sera divisée par deux.",
   "howtoplay.halving_p1": "Ce système garantit l'équité pour tous et récompense vos actions : c'est le halving.",
   "howtoplay.halving_p2": "Si les récompenses restaient élevées indéfiniment, le système serait inondé de tokens et leur valeur diminuerait considérablement. Le halving ralentit la production au fil du temps, préserve la rareté, contrôle l'inflation et récompense les premiers participants, tout en assurant la stabilité économique pour tous.",
@@ -292,7 +273,6 @@
   "howtoplay.halving_r6": "Du jour 151 au jour 180, la difficulté est 32.<br/>Chaque clic sur le bouton « Paix » vous rapporte 0.03125 tokens.",
   "howtoplay.halving_p4": "Le HALVING des tokens est nécessaire pour préserver leur valeur et l'équité.",
   "howtoplay.halving_p5": "Ensemble, construisons une économie pacifique à travers des millions d'actions pacifiques.",
-
   "howtoplay.season_title": "Que se passe-t-il à la fin de la SAISON 1 ?",
   "howtoplay.season_p1": "La saison 1 durera 180 jours.",
   "howtoplay.season_p2": "Pendant ces 180 jours, VOUS, les mineurs, créez la base économique du token NAVA PEACE.<br/>Cela représente 20% de l'offre totale émise.",
@@ -303,7 +283,6 @@
   "howtoplay.season_li2": "20% Pool de Liquidité",
   "howtoplay.season_li3": "14% Réserve Stratégique",
   "howtoplay.season_li4": "6% Fondateur/Créateur/Président",
-
   "howtoplay.access_title": "Quand pourrai-je accéder à mes tokens ?",
   "howtoplay.access_p1": "Vous aurez accès à vos tokens à la fin de la saison de 180 jours.<br/>À la fin de la saison 1 :",
   "howtoplay.access_li1": "Notre blockchain sera opérationnelle.",
@@ -316,7 +295,6 @@
   "howtoplay.access_li7": "commander une carte de crédit NAVA PEACE auprès de NAVA PEACE BANK ;",
   "howtoplay.access_li8": "souscrire une assurance NAVA PEACE ;",
   "howtoplay.access_li9": "transférer des tokens NAVA, faire don de tokens NAVA PEACE à votre ONG préférée...",
-
   "howtoplay.wallet_title": "Comment votre portefeuille numérique est-il sécurisé ?",
   "howtoplay.wallet_p1": "Un portefeuille numérique est généré automatiquement.",
   "howtoplay.wallet_li1": "Pour le sécuriser, une phrase de récupération de 24 mots est utilisée.",
@@ -328,16 +306,13 @@
   "howtoplay.wallet_li6": "une clé privée,",
   "howtoplay.wallet_li7": "une phrase de récupération (seed phrase),",
   "howtoplay.wallet_li8": "et l'associe à l'utilisateur.",
-
   "howtoplay.phase2": "En Phase 2, nous lancerons l'application \"Nava Peace World\", une super application vous connectant à l'ensemble du marché des PEACE LOVERS dans le monde entier.",
-
   "roadmap.heading": "FEUILLE DE ROUTE NAVA PEACE<br/>– 2025 → 2026 –",
   "roadmap.phase1_badge": "PHASE 1 — GENÈSE (T4 2025)",
   "roadmap.phase1_sub": "Naissance du mouvement + fondations techniques.",
   "roadmap.phase1_li1": "Juin 2025 : La vision de la nécessité de créer une application de paix.",
   "roadmap.phase1_li2": "25 octobre 2025 : Création du premier prototype viable.",
   "roadmap.phase1_p1": "Création du concept NAVA PEACE.<br/>Manifeste philosophique et identité de marque.<br/>Développement de l'application (MVP).<br/>Lancement du site web officiel.<br/>Lancement du programme SEEDS (1 investisseur fondateur)",
-
   "roadmap.phase2_badge": "PHASE 2 — CRÉATION ET LANCEMENT DE L'APPLICATION NAVA PEACE (T1-T2 2026)",
   "roadmap.phase2_li1": "Création de l'entreprise, licences...",
   "roadmap.phase2_li2": "Recrutement de l'équipe",
@@ -394,7 +369,6 @@
   "roadmap.phase2_goal": "Objectif sur 180 jours :<br/>500 millions à 1 milliard d'utilisateurs",
   "roadmap.phase2_foundation1": "Création de la Fondation pour la Paix (soutien aux victimes de guerre et de catastrophes naturelles)",
   "roadmap.phase2_foundation2": "Création du Conseil de la Paix (conseillers et experts)",
-
   "roadmap.phase3_badge": "PHASE 3 — ÉCONOMIE ET BLOCKCHAIN (T3 2026)",
   "roadmap.phase3_li1": "Lancement de la blockchain NAVA PEACE (réseau principal)",
   "roadmap.phase3_li2": "Lancement officiel du token NAVA PEACE et établissement d'une économie réelle",
@@ -422,7 +396,6 @@
   "roadmap.phase3_merchant3": "Offrir des réductions ou des récompenses",
   "roadmap.phase3_p4": "Développement du système de gouvernance DAO<br/>Premières missions humanitaires financées par la Fondation pour la Paix",
   "roadmap.phase3_goal": "Objectif : 3 milliards d'utilisateurs",
-
   "roadmap.phase4_badge": "PHASE 4 — IMPACT MONDIAL (2027-2030)",
   "roadmap.phase4_p1": "NAVA PEACE devient une véritable économie mondiale de la paix.",
   "roadmap.phase4_li1": "Adoption internationale : commerçants, ONG, institutions",
@@ -434,7 +407,6 @@
   "roadmap.phase4_li7": "Objectif : 1 à 3 milliards de citoyens de la paix",
   "roadmap.phase4_li8": "Création de l'Indice de Paix, une mesure mondiale de l'impact",
   "roadmap.phase4_li9": "Reconnaissance institutionnelle (ONU, UNESCO, gouvernements partenaires)",
-
   "founder.heading": "À PROPOS DU FONDATEUR",
   "founder.p1": "Je m'appelle Alan August, je suis entrepreneur, globe-trotter, amoureux de la vie et citoyen du monde. Témoin au fil des années de toute cette souffrance, je me suis demandé, à moi-même et à mes amis : Comment, en 2025, ne pouvons-nous pas vivre en paix, comment ?",
   "founder.p2": "NAVA PEACE est ma réponse et mon humble invitation à changer le monde.",
@@ -444,14 +416,11 @@
   "founder.p5": "Il n'y a pas de meilleur investissement qu'un monde en paix.",
   "founder.p6": "Avec l'application NAVA PEACE, chaque tap est un murmure de paix en devenir. Des millions de murmures deviennent une voix que le monde ne peut ignorer.",
   "founder.signature": "Alan August<br/>Fondateur, NAVA PEACE",
-
   "footer.copyright": "© 2025 NAVA PEACE — Tous Droits Réservés",
   "footer.tagline": "Construit avec amour, courage et la conviction profonde que la paix commence en soi.",
-
   "cta.download": "REJOINDRE NAVA PEACE",
   "cta.join": "REJOINDRE LE MOUVEMENT",
   "cta.start": "COMMENCER À MINER LA PAIX",
-
   "nav.game2economy": "Du Jeu à l'Économie",
   "nav.community": "Communauté",
   "game2economy.heading": "DU JEU<br/>À L'ÉCONOMIE",
@@ -466,27 +435,26 @@
   "game2economy.why_token": "Un token est une unité de valeur numérique, comme une pièce dans un jeu vidéo — sauf que celle-ci est réelle. Lorsque vous jouez à NAVA PEACE, votre action quotidienne crée des tokens sur la blockchain. Ces tokens peuvent être échangés, épargnés ou utilisés pour soutenir des causes humanitaires. Tokeniser la paix signifie donner à votre engagement une valeur mesurable, échangeable et transparente. Pour la première fois, la paix a une économie.",
   "game2economy.quote": "\"Si la guerre est un marché, alors la paix doit devenir une force économique.\"",
   "game2economy.summary": "La gamification n'est pas un gadget — c'est le moteur. En transformant la paix en pratique quotidienne, nous créons l'élan collectif nécessaire pour construire une véritable économie de la paix tokenisée, soutenue par la transparence de la blockchain.",
-
   "arch.heading": "⚓ NAVA PEACE ARCH",
   "arch.subheading": "Un navire. Une plateforme. Une ville de vie.",
-  "arch.intro": "L'incarnation physique de NAVA PEACE — un navire transformé en ville humanitaire flottante qui se rend dans les zones de crise, reconstruit les communautés, puis repart.",
+  "arch.intro": "Le NAVA PEACE ARCH est le cœur de tout ce que nous faisons sur le terrain. Un navire n'est pas seulement un bâtiment — c'est une ville, un hôpital, une ferme, un refuge et un acte. Il arrive là où il est nécessaire, fait ce qui doit être fait, et repart.",
   "arch.why_stat1": "des pays du monde\nont accès à la mer",
-  "arch.why_p1": "Un navire n'est pas un symbole — c'est une stratégie. Avec les trois quarts des nations du monde bordées par la mer, une flotte de NAVA PEACE ARCH peut atteindre presque n'importe quelle zone de crise sur Terre, sans dépendre des frontières, des gouvernements ou des infrastructures.",
-  "arch.why_p2": "Nous ne construisons pas un seul navire. Nous construisons un modèle. Chaque ARCH déployé multiplie notre capacité d'action — des dizaines de navires, chacun une ville humanitaire pleinement autonome, convergeant vers les endroits qui en ont le plus besoin.",
+  "arch.why_p1": "Un navire n'est pas un symbole — c'est une stratégie. Les trois quarts des nations du monde ont une côte. Cela signifie qu'une flotte de NAVA PEACE ARCH peut atteindre presque n'importe quelle zone de crise sur Terre, sans demander la permission à des frontières, des gouvernements ou des infrastructures défaillantes.",
+  "arch.why_p2": "Nous ne construisons pas un seul navire. Nous construisons un modèle — et un mouvement. Chaque ARCH que nous déployons multiplie notre capacité d'action. Nous envisageons des dizaines de ces navires, chacun une ville humanitaire pleinement autonome, convergeant vers les endroits qui en ont le plus besoin, au moment où ils en ont le plus besoin.",
   "arch.h_hospital": "HÔPITAL DE CAMPAGNE",
-  "arch.p_hospital": "Chirurgies d'urgence, soins aux traumatisés et soutien médical à long terme — directement là où le besoin se fait sentir.",
+  "arch.p_hospital": "Quand la guerre prive les gens d'hôpitaux, nous leur amenons l'hôpital. Notre unité médicale embarquée prend en charge les chirurgies d'urgence, les soins aux traumatisés et la rééducation — portée par des médecins bénévoles qui savent que survivre n'est que le début.",
   "arch.h_prosthetics": "LABORATOIRE DE PROTHÈSES 3D",
-  "arch.p_prosthetics": "Fabrication à bord de prothèses et dispositifs médicaux par impression 3D — pour rendre mobilité et dignité aux victimes des conflits.",
+  "arch.p_prosthetics": "Les conflits volent des membres. Nous les restituons. Notre laboratoire d'impression 3D embarqué fabrique prothèses et dispositifs médicaux à la demande — parce que chaque personne mérite de marcher, de tenir, et de construire à nouveau.",
   "arch.h_reconstruction": "QG DE RECONSTRUCTION",
-  "arch.p_reconstruction": "Équipes de construction en sacs de terre, systèmes d'eau potable et élevage durable — bâtir l'autonomie depuis les décombres.",
+  "arch.p_reconstruction": "Nos équipes sont spécialisées dans la construction naturelle et les solutions low-tech — structures en sacs de terre, systèmes d'eau potable, petit élevage durable. Nous travaillons aux côtés des communautés, en utilisant ce que la terre offre déjà pour reconstruire quelque chose qui dure.",
   "arch.h_lovetel": "LOVETEL",
-  "arch.p_lovetel": "Un hôtel-sanctuaire offrant repos et dignité aux survivants — parce que la guérison commence quand on se sent humain à nouveau.",
-  "arch.h_farm": "FERME FLOTTANTE & CUISINE",
-  "arch.p_farm": "Jardins hydroponiques et cuisine entièrement équipée — nourrir l'équipage, les volontaires et les communautés locales avec des aliments frais.",
+  "arch.p_lovetel": "Un sanctuaire au milieu de la tempête. Le LOVETEL offre aux survivants un vrai lit, de l'intimité et de la sécurité — parce que la dignité n'est pas un luxe. La vraie guérison ne peut commencer que lorsqu'on se sent humain à nouveau.",
+  "arch.h_farm": "FERME FLOTTANTE & BOULANGERIE",
+  "arch.p_farm": "Nos unités de culture sous UV tournent vingt-quatre heures sur vingt-quatre, transformant le navire en source d'alimentation vivante. L'objectif est de nourrir tout l'équipage et de produire autant que possible pour les personnes que nous servons à terre — brut ou transformé. Nous avons une boulangerie à bord, parce que la plupart des gens sur Terre mangent du pain, et le pain, c'est l'espoir.",
   "arch.h_volunteers": "QUARTIERS DES VOLONTAIRES",
-  "arch.p_volunteers": "Hébergement pour le réseau mondial de bénévoles qui rend chaque mission possible — médecins, constructeurs, ingénieurs, artistes et artisans de paix.",
+  "arch.p_volunteers": "Le NAVA PEACE ARCH fonctionne à l'énergie humaine. Médecins, constructeurs, ingénieurs, enseignants, artistes, boulangers — quiconque a une compétence et l'envie d'agir a sa place ici. Les quartiers bénévoles sont conçus non seulement pour le repos, mais pour la communauté, le lien et le sens.",
   "arch.h_hydrogen": "ÉNERGIE HYDROGÈNE",
-  "arch.p_hydrogen": "Énergie 100% propre par propulsion à hydrogène — zéro dépendance, zéro déchet, zéro compromis sur la mission.",
+  "arch.p_hydrogen": "Nous refusons de dépendre des énergies fossiles pour faire le bien. Le NAVA PEACE ARCH fonctionne à l'hydrogène — propre, silencieux et souverain. Pas de chaînes d'approvisionnement à gérer. Pas d'émissions à justifier. Juste une énergie pure, au service de la vie.",
   "arch.slogan": "ARRIVER. RECONSTRUIRE. REPARTIR. RECOMMENCER.",
   "arch.slogan_sub": "Voilà à quoi ressemble la paix en action."
 }
