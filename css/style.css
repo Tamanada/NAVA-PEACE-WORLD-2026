@@ -1591,6 +1591,87 @@ section {
 /* ============================================
    SECTION FOUNDATION
    ============================================ */
+/* ======== NAVA PEACE ARCH ======== */
+.section-arch {
+  background: linear-gradient(160deg, #020d1f 0%, #061428 40%, #03090f 100%);
+  padding: 70px 20px;
+  border-top: 1px solid rgba(109,213,245,0.15);
+  border-bottom: 1px solid rgba(109,213,245,0.15);
+}
+
+.arch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 960px;
+  margin: 0 auto 48px;
+}
+
+.arch-card {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  border-radius: 16px;
+  padding: 24px 20px;
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.arch-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px color-mix(in srgb, var(--accent) 20%, transparent);
+}
+
+.arch-icon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.arch-title {
+  font-family: 'Nasalization', Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 2.5px;
+  color: var(--accent);
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.arch-desc {
+  font-size: 13px;
+  color: rgba(255,255,255,0.6);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.arch-slogan {
+  text-align: center;
+  border-top: 1px solid rgba(109,213,245,0.15);
+  padding-top: 32px;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.arch-slogan-text {
+  font-family: 'Nasalization', Arial, sans-serif;
+  font-size: 13px;
+  letter-spacing: 4px;
+  color: rgba(109,213,245,0.7);
+  margin: 0 0 8px;
+  text-transform: uppercase;
+}
+
+.arch-slogan-sub {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .arch-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ======== FOUNDATION ======== */
 .section-foundation {
   background: radial-gradient(ellipse at 50% 30%,
     var(--sky-start) 0%, var(--primary) 50%, var(--deep-blue) 100%);
