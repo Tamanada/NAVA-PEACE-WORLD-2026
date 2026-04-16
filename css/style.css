@@ -1622,12 +1622,12 @@ section {
 
 /* override heading/subheading color inside arch section */
 .section-arch .section-heading {
-  color: #fff;
-  text-shadow: 0 2px 20px rgba(0,80,140,0.3);
+  color: #0a2a4a;
+  text-shadow: none;
 }
 
 .section-arch .section-subheading {
-  color: rgba(255,255,255,0.9);
+  color: #1a4a70;
 }
 
 /* BOAT IMAGE */
@@ -1648,8 +1648,8 @@ section {
   gap: 32px;
   max-width: 860px;
   margin: 0 auto 52px;
-  background: rgba(255,255,255,0.25);
-  border: 1px solid rgba(255,255,255,0.5);
+  background: rgba(255,255,255,0.65);
+  border: 1px solid rgba(255,255,255,0.8);
   border-radius: 20px;
   padding: 32px 36px;
   backdrop-filter: blur(8px);
@@ -1668,16 +1668,16 @@ section {
   font-family: 'Nasalization', Arial, sans-serif;
   font-size: 72px;
   font-weight: 700;
-  color: #fff;
+  color: #0a2a4a;
   line-height: 1;
   letter-spacing: -2px;
-  text-shadow: 0 2px 24px rgba(0,80,160,0.35);
+  text-shadow: none;
 }
 
 .arch-why-label {
   font-size: 11px;
   letter-spacing: 1.5px;
-  color: rgba(255,255,255,0.85);
+  color: #2a5a8a;
   text-transform: uppercase;
   margin-top: 8px;
   line-height: 1.6;
@@ -1687,13 +1687,13 @@ section {
 .arch-why-divider {
   width: 1px;
   height: 80px;
-  background: rgba(255,255,255,0.4);
+  background: rgba(10,42,74,0.2);
   flex-shrink: 0;
 }
 
 .arch-why-text p {
   font-size: 14px;
-  color: rgba(255,255,255,0.92);
+  color: #1a3a5e;
   line-height: 1.8;
   margin: 0 0 12px;
 }
@@ -1748,7 +1748,7 @@ section {
 /* SLOGAN */
 .arch-slogan {
   text-align: center;
-  border-top: 1px solid rgba(255,255,255,0.4);
+  border-top: 1px solid rgba(10,42,74,0.2);
   padding-top: 36px;
   max-width: 680px;
   margin: 0 auto;
@@ -1758,18 +1758,17 @@ section {
   font-family: 'Nasalization', Arial, sans-serif;
   font-size: 14px;
   letter-spacing: 4px;
-  color: rgba(255,255,255,0.95);
+  color: #0a2a4a;
   margin: 0 0 10px;
   text-transform: uppercase;
-  text-shadow: 0 1px 8px rgba(0,60,120,0.3);
+  text-shadow: none;
 }
 
 .arch-slogan-sub {
   font-size: 18px;
   font-weight: 700;
-  color: #fff;
+  color: #0a2a4a;
   margin: 0;
-  text-shadow: 0 2px 12px rgba(0,60,120,0.25);
 }
 
 /* RESPONSIVE */
