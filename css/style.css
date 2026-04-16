@@ -1599,6 +1599,76 @@ section {
   border-bottom: 1px solid rgba(109,213,245,0.15);
 }
 
+.arch-why {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  max-width: 860px;
+  margin: 0 auto 52px;
+  background: rgba(109,213,245,0.06);
+  border: 1px solid rgba(109,213,245,0.2);
+  border-radius: 20px;
+  padding: 32px 36px;
+}
+
+.arch-why-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.arch-why-number {
+  font-family: 'Nasalization', Arial, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  color: #6DD5F5;
+  line-height: 1;
+  letter-spacing: -2px;
+  text-shadow: 0 0 40px rgba(109,213,245,0.5);
+}
+
+.arch-why-label {
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase;
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.arch-why-divider {
+  width: 1px;
+  height: 80px;
+  background: rgba(109,213,245,0.25);
+  flex-shrink: 0;
+}
+
+.arch-why-text p {
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.75;
+  margin: 0 0 12px;
+}
+
+.arch-why-text p:last-child {
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .arch-why {
+    flex-direction: column;
+    padding: 24px 20px;
+    gap: 20px;
+    text-align: center;
+  }
+  .arch-why-divider {
+    width: 60px;
+    height: 1px;
+  }
+}
+
 .arch-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
