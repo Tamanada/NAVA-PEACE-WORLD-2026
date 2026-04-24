@@ -1,4 +1,4 @@
-{
+﻿{
   "nav.home": "ホーム",
   "nav.today": "今日",
   "nav.mission": "ミッション",
@@ -6,13 +6,16 @@
   "nav.vision": "ビジョン",
   "nav.manifesto": "マニフェスト",
   "nav.blockchain": "ブロックチェーン",
-  "nav.arch": "The Arch",
   "nav.foundation": "財団",
   "nav.howtoplay": "遊び方",
   "nav.roadmap": "ロードマップ",
   "nav.founder": "創設者",
   "hero.label": "NAVA PEACE",
   "hero.title": "成長するために生まれた",
+  "hero.slogan1": "平和を",
+  "hero.slogan2": "平和",
+  "hero.slogan3": "再び偉大に",
+
   "today.heading": "今日<br/>人類は<br/>平和を選ぶ",
   "today.subtitle": "NAVA PEACEは、シンプルな日々の平和行動を通じて何百万もの心をつなぐグローバルムーブメントです。",
   "today.why": "なぜ行動すべきか？",
@@ -277,9 +280,15 @@
   "howtoplay.season_p4": "例：シーズン1中に1億トークンが発行された場合、4億のNAVA PEACEトークンが同時に発行され、総供給量は5億トークンになります。",
   "howtoplay.season_p5": "これらのトークンは以下のように宛先ウォレットに自動的に送信されます：",
   "howtoplay.season_li1": "50% NAVA PEACE WORLD財団",
-  "howtoplay.season_li2": "20% 流動性プール",
+  "howtoplay.season_li2": "20% コミュニティ",
   "howtoplay.season_li3": "14% 戦略的準備金",
-  "howtoplay.season_li4": "6% 創設者/クリエイター/会長",
+  "howtoplay.season_li4": "10% 流動性プール",
+  "howtoplay.season_li5": "6% 創設者/クリエイター/会長",
+  "howtoplay.season_li1_desc": "スマートコントラクトが生成したトークンの50%は、コミュニティが選んだ人道的プロジェクトを支援するためNAVA PEACE財団に送られます。",
+  "howtoplay.season_li2_desc": "20%はコミュニティに分配されます：アクティブなプレイヤー、トップ貢献者、紹介リーダー、NAVA PEACEの初期サポーター。",
+  "howtoplay.season_li3_desc": "14%は長期的な持続可能性を確保し、エコシステムの将来的な開発を支援するための戦略的準備金として保持されます。",
+  "howtoplay.season_li4_desc": "10%は取引所の流動性プールに割り当てられ、NAVA PEACEトークンが自由に売買できるようにします。",
+  "howtoplay.season_li5_desc": "6%は創設チームへの報酬として割り当てられ、長期的なベスティングスケジュールに従います。",
   "howtoplay.access_title": "トークンにいつアクセスできますか？",
   "howtoplay.access_p1": "180日間のシーズン終了時にトークンにアクセスできます。<br/>シーズン1終了時：",
   "howtoplay.access_li1": "ブロックチェーンが稼働します。",
@@ -415,11 +424,14 @@
   "founder.signature": "Alan August<br/>創設者、NAVA PEACE",
   "footer.copyright": "© 2025 NAVA PEACE — 全著作権所有",
   "footer.tagline": "愛と勇気、そして平和は内側から始まるという深い信念で作られました。",
+
   "cta.download": "NAVA PEACE に参加",
   "cta.join": "ムーブメントに参加",
   "cta.start": "ピースマイニングを始める",
+
   "nav.game2economy": "ゲームから経済へ",
   "nav.community": "コミュニティ",
+  "nav.merch": "ショップ",
   "game2economy.heading": "ゲームから<br/>経済へ",
   "game2economy.sub": "日々のジェスチャーがグローバルな平和経済になる仕組み。",
   "game2economy.step1_title": "あなたがプレイする",
@@ -431,5 +443,14 @@
   "game2economy.why_token_title": "なぜ平和をトークン化するのか？",
   "game2economy.why_token": "トークンとは、ビデオゲームのコインのようなデジタルな価値単位です — ただし、これは本物です。NAVA PEACEをプレイすると、あなたの毎日のアクションがブロックチェーン上でトークンを作ります。これらのトークンは交換、貯蓄、または人道的な目的の支援に使用できます。平和をトークン化するとは、あなたのコミットメントに測定可能で、取引可能で、透明な価値を与えることです。初めて、平和に経済が生まれました。",
   "game2economy.quote": "「戦争が市場であるなら、平和は経済的な力にならなければならない。」",
-  "game2economy.summary": "ゲーミフィケーションはギミックではありません — それはエンジンです。平和を日々の実践に変えることで、ブロックチェーンの透明性に裏打ちされた本物のトークン化された平和経済を構築するために必要な集合的な勢いを生み出します。"
+  "game2economy.summary": "ゲーミフィケーションはギミックではありません — それはエンジンです。平和を日々の実践に変えることで、ブロックチェーンの透明性に裏打ちされた本物のトークン化された平和経済を構築するために必要な集合的な勢いを生み出します。",
+
+  "merch.heading": "平和を身にまとう",
+  "merch.tagline": "すべての商品がミッションを支援します。",
+  "merch.description": "私たちの衣類とアクセサリーは単なる商品ではありません — それらは声明です。すべての購入は NAVA PEACE のミッションを直接サポートし、世界中の人道支援に資金を提供します。",
+  "merch.badge1": "世界中に配送",
+  "merch.badge2": "倫理的な素材",
+  "merch.badge3": "購入ごとに寄付",
+  "merch.cta": "今すぐ購入",
+  "merch.available": "以下で購入可能"
 }

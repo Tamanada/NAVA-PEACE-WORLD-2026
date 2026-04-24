@@ -1,4 +1,4 @@
-{
+﻿{
   "nav.home": "首页",
   "nav.today": "今天",
   "nav.mission": "使命",
@@ -6,13 +6,17 @@
   "nav.vision": "愿景",
   "nav.manifesto": "宣言",
   "nav.blockchain": "区块链",
-  "nav.arch": "The Arch",
   "nav.foundation": "基金会",
   "nav.howtoplay": "如何参与",
   "nav.roadmap": "路线图",
   "nav.founder": "创始人",
+
   "hero.label": "NAVA PEACE",
   "hero.title": "为成长而生",
+  "hero.slogan1": "让我们让",
+  "hero.slogan2": "和平",
+  "hero.slogan3": "再次伟大",
+
   "today.heading": "今天<br/>人类<br/>选择和平",
   "today.subtitle": "NAVA PEACE 是一场全球运动，通过每日简单的和平行动将数百万颗心连接在一起。",
   "today.why": "我们为什么要行动？",
@@ -21,6 +25,7 @@
   "today.how_text": "我们创建了一个全球系统，将简单的日常行动转化为一个可见的、互联的运动。",
   "today.what": "我们提供什么解决方案？",
   "today.what_text": "一个平台、一个社区和一项技术，让任何人都能加入并在全球传播和平。",
+
   "first.heading": "NAVA PEACE 是世界上第一个旨在<strong>让和平可见</strong>的技术工具 <em>这是人类历史上的第一次</em>",
   "first.by": "通过：",
   "first.li1": "让每个人成为和平的灯塔。",
@@ -31,6 +36,7 @@
   "first.li6": "揭示人类从未能够衡量的东西：和平。",
   "first.li7": "将和平转化为一种集体力量。",
   "first.li8": "让和平成为不可否认的事实。",
+
   "app.heading": "NAVA PEACE 应用",
   "app.subheading": "NAVA PEACE 倡议将使用一款应用来团结世界。",
   "app.phone1": "一款适合所有人的简单应用，<br/>为和平而探索的时刻。",
@@ -50,8 +56,10 @@
   "app.feat4": "行动面板",
   "app.feat5": "集成钱包和 NAVA 区块链",
   "app.feat6": "社区和人道主义工具……",
+
   "vision.heading": "我们对<br/>NAVA PEACE 的愿景",
   "vision.text": "NAVA PEACE 旨在成为第一个完全围绕<strong>和平、尊严</strong>和<strong>团结</strong>构建的全球 <strong>WEB3 生态系统</strong>。",
+
   "community.title": "全球社区",
   "community.p1": "每个人都可以加入我们。我们将赋予和平应有的价值。每个人，无论国家、年龄或宗教，都欢迎加入 NAVA PEACE。和平是每个人的事。如果和平不能扎根，谈论气候变化毫无意义。",
   "community.quote1": "\"如果战争是一个市场，那么和平必须成为一种经济力量。\"",
@@ -67,6 +75,7 @@
   "community.p_consensus2": "什么是共识？共识意味着每个人都认同同一个事实。印刷的纸张 = 货币。",
   "community.p_consensus3": "那么让我们迈出下一步：NAVA PEACE 是第一个和平经济。",
   "community.p_web3": "我们将创建一个认可 NAVA PEACE 代币是一种货币的人群网络，我们可以像使用任何法定货币一样完全放心地使用它。欢迎来到 Web3。",
+
   "manifesto.heading": "哲学<br/>宣言",
   "manifesto.quote1": "\"每一天，人类都有一个选择。<br/>今天，我们选择和平。\"",
   "manifesto.p1": "有一个时刻，看不见却具有决定性，当一个文明选择它想要成为什么。这个时刻既不是政治的，也不是宗教的，也不是经济的。它是内在的、沉默的、个人的。",
@@ -106,6 +115,7 @@
   "manifesto.li19": "每一天，通过一个简单的手势，",
   "manifesto.li20": "我们一起书写人类历史上最美丽的句子：",
   "manifesto.quote3": "\"今天，为了我，为了你，<br/>为了我们，我选择和平。\"",
+
   "blockchain.heading": "NAVA PEACE 区块链",
   "blockchain.p1": "我们的区块链汇集了下一代基础设施的所有关键支柱。专为毫不妥协的安全性、无缝扩展性、超低费用和根本性的生态效率而设计，它为负责任的创新设立了新的标杆。",
   "blockchain.stat": "能耗比 Bitcoin 区块链低 100 倍。",
@@ -152,6 +162,7 @@
   "blockchain.nut_li2": "\"The Forge\" 构建了使之成为可能的模块化智能。",
   "blockchain.nut_li3": "\"ChessChain\" 是第一个演示。",
   "blockchain.nut_li4": "我们正在构建 AI 时代的分形 GPS。",
+
   "foundation.heading": "NAVA PEACE<br/>基金会",
   "foundation.subheading": "一个透明且以行动为导向的基金会，支持战争受害者并资助和平倡议。",
   "foundation.h_humanitarian": "人道主义支持",
@@ -174,6 +185,7 @@
   "foundation.li8": "随时待命的全球志愿者队伍",
   "foundation.li9": "浮动农场等等……",
   "foundation.p3": "将部署全球快速响应网络，为危机地区提供即时援助。",
+
   "howtoplay.heading": "你需要知道的一切。",
   "howtoplay.sub1": "如何参与？如何提升？",
   "howtoplay.sub2": "如何获胜？最重要的是……为什么？",
@@ -188,6 +200,7 @@
   "howtoplay.intro_p8": "我希望数百万、数十亿的人每天参与并与朋友分享。",
   "howtoplay.intro_p9": "每次你打开应用参与，你都在为我们和后代选择一个更好的未来。",
   "howtoplay.intro_p10": "自觉地，你将参与一种新形式的经济：和平经济。",
+
   "howtoplay.start_heading": "如何开始<br/>参与 NAVA PEACE",
   "howtoplay.start_title": "如何开始参与 NAVA PEACE？",
   "howtoplay.start_p1": "开始：",
@@ -196,6 +209,7 @@
   "howtoplay.start_li3": "选择您的头像",
   "howtoplay.start_li4": "您将自动获得第一个徽章：PEACE LOVER",
   "howtoplay.start_welcome": "欢迎加入 NAVA PEACE 冒险！",
+
   "howtoplay.tokens_title": "如何获得我的第一批 NAVA 代币？",
   "howtoplay.tokens_p1": "您的每日 PEACE LOVER 任务是：",
   "howtoplay.tokens_li1": "每 24 小时打开一次应用（随着等级提升会更频繁）",
@@ -203,6 +217,7 @@
   "howtoplay.tokens_congrats": "恭喜！您的每日和平行动已完成！明天见！",
   "howtoplay.tokens_tip1": "提示：设置每日闹钟，这样您就不会错过挖矿时段。",
   "howtoplay.tokens_tip2": "通过使用您的推荐码邀请朋友，您可以获得额外的代币。",
+
   "howtoplay.invite_title": "邀请系统如何运作？",
   "howtoplay.invite_p1": "用您的唯一代码向朋友发送邀请后，当他们开始参与时就会变为活跃状态！",
   "howtoplay.invite_p2": "1 个活跃朋友 = 奖励 = 每个活跃朋友 1 个代币",
@@ -211,6 +226,7 @@
   "howtoplay.invite_p5": "准备好获得免费 NFTs（等级徽章）并提升排名！",
   "howtoplay.invite_p6": "您发送的邀请越多，获得免费 NFTs 和看到奖励飙升的机会就越大。",
   "howtoplay.invite_p7": "每个活跃朋友 1 个代币非常可观。由于挖矿将是通缩的，邀请代币始终物有所值。",
+
   "howtoplay.nft_title": "如何获得 NAVA PEACE NFTs？",
   "howtoplay.nft_p1": "从游戏化应用上线第一天起即可获得 NFTs。",
   "howtoplay.nft_p2": "不同的等级有哪些？",
@@ -226,6 +242,7 @@
   "howtoplay.ref5": "TBD referrals = 1 PEACE LEGEND",
   "howtoplay.ref6": "从 LOVER 即时升级到 LEGEND",
   "howtoplay.ref7": "专属访问和全球特权",
+
   "howtoplay.nft_why_title": "为什么 NFTs 很重要？",
   "howtoplay.nft_why_p1": "因为它们允许您：",
   "howtoplay.nft_why_li1": "更快地挖矿",
@@ -234,15 +251,18 @@
   "howtoplay.nft_why_li4": "解锁专属权利和折扣",
   "howtoplay.nft_why_p2": "以后，也许有机会在基金会董事会任职一个赛季。",
   "howtoplay.nft_why_p3": "一个 NFT = 一个挖矿加速器，一个未来投资，一个信任证明 = 一个无条件的承诺",
+
   "howtoplay.mining_title": "NAVA PEACE 中的挖矿是什么？它如何运作？",
   "howtoplay.mining_p1": "第 1 阶段：将 NAVA PEACE 想象为一个巨大的全球视频游戏，每个人都努力让地球每天更加友善，有一个共同的最终目标：",
   "howtoplay.mining_p2": "通过将全世界连接在一个社区中来创建和平经济。",
   "howtoplay.mining_p3": "要分享\"我今天选择和平，为所有人，为世界的每一个角落\"，您只需在应用中点击一个魔法按钮。",
   "howtoplay.mining_p4": "当您点击那个按钮时……神奇的事情发生了。<br/>您获得 NAVA 代币。这就是挖矿。每笔交易都记录在区块链上。它是不可逆的、不可篡改的、匿名的。",
+
   "howtoplay.what_mining_title": "那么，什么是挖矿？",
   "howtoplay.what_mining_p1": "挖矿是一个在您每次执行和平行动时在区块链上发生的过程。每个行动都被记录并对连接到区块链的所有用户可见。所有行动都被统计并链接到一个钱包：您的。",
   "howtoplay.what_mining_p2": "您不需要机器或电力。",
   "howtoplay.what_mining_p3": "您只需要您的手机和参与的意愿。",
+
   "howtoplay.how_mining_title": "NAVA PEACE 中的挖矿如何运作？",
   "howtoplay.how_mining_p1": "您因以下方面获得奖励：",
   "howtoplay.how_mining_li1": "您的每日挖矿活动",
@@ -258,6 +278,7 @@
   "howtoplay.how_mining_p5": "如果您达到更高等级 → 您可以更快地挖矿。",
   "howtoplay.how_mining_p6": "每个人赚的一样多吗？",
   "howtoplay.how_mining_p7": "是也不是。<br/>游戏规则对每个人都一样，但如果有些人有很多朋友或投资 NFTs 以更快进步，那么他们将赚取更多的代币。",
+
   "howtoplay.halving_title": "每 30 天，挖矿奖励将减半。",
   "howtoplay.halving_p1": "这个系统确保对每个人的公平并奖励您的行动：这叫做减半。",
   "howtoplay.halving_p2": "如果奖励无限期保持高位，系统将被代币淹没，其价值将大幅下降。减半随时间减缓产出，保持稀缺性，控制通胀，并奖励早期参与者，同时确保每个人的经济稳定。",
@@ -270,6 +291,7 @@
   "howtoplay.halving_r6": "从第 151 天到第 180 天，难度为 32。<br/>每次点击\"和平\"按钮为您赚取 0.03125 个代币。",
   "howtoplay.halving_p4": "代币减半对于保持其价值和公平性是必要的。",
   "howtoplay.halving_p5": "让我们一起通过数百万的和平行动建设和平经济。",
+
   "howtoplay.season_title": "赛季 1 结束时会发生什么？",
   "howtoplay.season_p1": "赛季 1 将持续 180 天。",
   "howtoplay.season_p2": "在这 180 天里，您，矿工们，创建 NAVA PEACE 代币的经济基础。<br/>这代表了总发行量的 20%。",
@@ -277,9 +299,16 @@
   "howtoplay.season_p4": "例如：如果赛季 1 期间发行了 1 亿个代币，将同时发行 4 亿个 NAVA PEACE 代币，总供应量为 5 亿个代币。",
   "howtoplay.season_p5": "这些代币将自动发送到目标钱包，分配如下：",
   "howtoplay.season_li1": "50% NAVA PEACE WORLD 基金会",
-  "howtoplay.season_li2": "20% 流动性池",
+  "howtoplay.season_li2": "20% 社区",
   "howtoplay.season_li3": "14% 战略储备",
-  "howtoplay.season_li4": "6% 创始人/创造者/主席",
+  "howtoplay.season_li4": "10% 流动性池",
+  "howtoplay.season_li5": "6% 创始人/创造者/主席",
+  "howtoplay.season_li1_desc": "智能合约生成代币的50%将发送至NAVA PEACE基金会，资助社区选择的人道主义项目。",
+  "howtoplay.season_li2_desc": "20%将分配给社区：活跃玩家、顶级贡献者、推荐领袖以及NAVA PEACE的早期支持者。",
+  "howtoplay.season_li3_desc": "14%作为战略储备，确保长期可持续发展并资助生态系统的未来建设。",
+  "howtoplay.season_li4_desc": "10%分配至交易所的流动性池，确保NAVA PEACE代币可自由买卖。",
+  "howtoplay.season_li5_desc": "6%分配给创始团队以奖励其工作，受长期归属计划约束。",
+
   "howtoplay.access_title": "我什么时候可以访问我的代币？",
   "howtoplay.access_p1": "您将在 180 天赛季结束时获得代币。<br/>在赛季 1 结束时：",
   "howtoplay.access_li1": "我们的区块链将投入运营。",
@@ -292,6 +321,7 @@
   "howtoplay.access_li7": "从 NAVA PEACE BANK 订购 NAVA PEACE 信用卡；",
   "howtoplay.access_li8": "购买 NAVA PEACE 保险；",
   "howtoplay.access_li9": "转账 NAVA 代币，向您喜爱的 NGO 捐赠 NAVA PEACE 代币……",
+
   "howtoplay.wallet_title": "您的数字钱包如何保护安全？",
   "howtoplay.wallet_p1": "数字钱包自动生成。",
   "howtoplay.wallet_li1": "为了保护它，使用 24 个单词的恢复短语。",
@@ -303,13 +333,16 @@
   "howtoplay.wallet_li6": "一个私钥，",
   "howtoplay.wallet_li7": "一个恢复短语（助记词），",
   "howtoplay.wallet_li8": "并将其与用户关联。",
+
   "howtoplay.phase2": "在第 2 阶段，我们将推出 \"Nava Peace World\" 应用，一个将您连接到全球 PEACE LOVERS 整个市场的超级应用。",
+
   "roadmap.heading": "NAVA PEACE 路线图<br/>– 2025 → 2026 –",
   "roadmap.phase1_badge": "第 1 阶段 — 创世（Q4 2025）",
   "roadmap.phase1_sub": "运动的诞生 + 技术基础。",
   "roadmap.phase1_li1": "2025 年 6 月：创建和平应用的需求愿景。",
   "roadmap.phase1_li2": "2025 年 10 月 25 日：创建第一个可行原型。",
   "roadmap.phase1_p1": "NAVA PEACE 概念的创建。<br/>哲学宣言和品牌标识。<br/>应用（MVP）开发。<br/>官方网站上线。<br/>SEEDS 计划启动（1 位创始投资者）",
+
   "roadmap.phase2_badge": "第 2 阶段 — NAVA PEACE 应用的创建和发布（Q1-Q2 2026）",
   "roadmap.phase2_li1": "公司创建、许可……",
   "roadmap.phase2_li2": "团队招聘",
@@ -366,6 +399,7 @@
   "roadmap.phase2_goal": "180 天目标：<br/>5 亿到 10 亿用户",
   "roadmap.phase2_foundation1": "创建和平基金会（支持战争和自然灾害受害者）",
   "roadmap.phase2_foundation2": "建立和平委员会（顾问和专家）",
+
   "roadmap.phase3_badge": "第 3 阶段 — 经济和区块链（Q3 2026）",
   "roadmap.phase3_li1": "NAVA PEACE 区块链发布（主网）",
   "roadmap.phase3_li2": "NAVA PEACE 代币正式发布并建立真正的经济",
@@ -393,6 +427,7 @@
   "roadmap.phase3_merchant3": "提供折扣或奖励",
   "roadmap.phase3_p4": "DAO 治理系统开发<br/>和平基金会资助的首批人道主义任务",
   "roadmap.phase3_goal": "目标：30 亿用户",
+
   "roadmap.phase4_badge": "第 4 阶段 — 全球影响（2027-2030）",
   "roadmap.phase4_p1": "NAVA PEACE 成为真正的全球和平经济。",
   "roadmap.phase4_li1": "国际采用：商家、NGOs、机构",
@@ -404,6 +439,7 @@
   "roadmap.phase4_li7": "目标：10 至 30 亿和平公民",
   "roadmap.phase4_li8": "创建和平指数，一个全球影响力衡量标准",
   "roadmap.phase4_li9": "机构认可（UN、UNESCO、合作政府）",
+
   "founder.heading": "关于创始人",
   "founder.p1": "我叫Alan August，我是一名企业家、环球旅行者、生活热爱者和世界公民。多年来目睹了这些苦难，我问自己和朋友们：在2025年，我们怎么还不能和平生活，怎么会？",
   "founder.p2": "NAVA PEACE是我的答案，也是我改变世界的谦卑邀请。",
@@ -413,13 +449,17 @@
   "founder.p5": "没有比一个和平的世界更好的投资了。",
   "founder.p6": "通过NAVA PEACE应用，每次点击都是一个正在成为现实的和平低语。数百万的低语汇成一个世界无法忽视的声音。",
   "founder.signature": "Alan August<br/>创始人，NAVA PEACE",
+
   "footer.copyright": "© 2025 NAVA PEACE — 保留所有权利",
   "footer.tagline": "以爱、勇气和对和平始于内心的深切信念而建。",
+
   "cta.download": "加入 NAVA PEACE",
   "cta.join": "加入运动",
   "cta.start": "开始挖矿和平",
+
   "nav.game2economy": "从游戏到经济",
   "nav.community": "社区",
+  "nav.merch": "商店",
   "game2economy.heading": "从游戏<br/>到经济",
   "game2economy.sub": "一个日常手势如何成为全球和平经济。",
   "game2economy.step1_title": "你参与",
@@ -431,5 +471,14 @@
   "game2economy.why_token_title": "为什么要将和平代币化？",
   "game2economy.why_token": "代币是一种数字价值单位，就像电子游戏中的金币——只不过这个是真实的。当你玩 NAVA PEACE 时，你的日常行动在区块链上创建代币。这些代币可以交换、储蓄或用于支持人道主义事业。将和平代币化意味着赋予你的承诺一种可衡量的、可交易的和透明的价值。和平第一次拥有了自己的经济。",
   "game2economy.quote": "\"如果战争是一个市场，那么和平必须成为一种经济力量。\"",
-  "game2economy.summary": "游戏化不是噱头——它是引擎。通过将和平变成每日实践，我们创造了建设一个由区块链透明度支持的真实、代币化和平经济所需的集体动力。"
+  "game2economy.summary": "游戏化不是噱头——它是引擎。通过将和平变成每日实践，我们创造了建设一个由区块链透明度支持的真实、代币化和平经济所需的集体动力。",
+
+  "merch.heading": "穿上和平",
+  "merch.tagline": "每件商品都资助使命。",
+  "merch.description": "我们的服装和配饰不仅仅是产品——它们是宣言。每次购买都直接支持 NAVA PEACE 的使命，并资助全球的人道主义援助。",
+  "merch.badge1": "全球配送",
+  "merch.badge2": "道德材料",
+  "merch.badge3": "每次购买都捐款",
+  "merch.cta": "立即购买",
+  "merch.available": "可在以下平台购买"
 }

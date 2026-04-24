@@ -151,5 +151,9 @@ const I18N = (() => {
     applyTranslations();
   }
 
-  return { init, setLanguage, LANGUAGES };
+  function t(key) {
+    return translations[key] || defaultTranslations[key] || '';
+  }
+
+  return { init, setLanguage, LANGUAGES, t };
 })();

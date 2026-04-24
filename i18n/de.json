@@ -1,4 +1,4 @@
-{
+﻿{
   "nav.home": "Startseite",
   "nav.today": "Heute",
   "nav.mission": "Mission",
@@ -6,13 +6,17 @@
   "nav.vision": "Vision",
   "nav.manifesto": "Manifest",
   "nav.blockchain": "Blockchain",
-  "nav.arch": "The Arch",
   "nav.foundation": "Stiftung",
   "nav.howtoplay": "Spielanleitung",
   "nav.roadmap": "Roadmap",
   "nav.founder": "Gründer",
+
   "hero.label": "NAVA PEACE",
   "hero.title": "GEBOREN UM ZU WACHSEN",
+  "hero.slogan1": "MACHEN WIR DEN",
+  "hero.slogan2": "FRIEDEN",
+  "hero.slogan3": "WIEDER GROSS",
+
   "today.heading": "HEUTE<br/>WÄHLT DIE<br/>MENSCHHEIT DEN FRIEDEN",
   "today.subtitle": "NAVA PEACE ist eine globale Bewegung, die Millionen von Herzen durch eine einfache tägliche Friedenstat vereint.",
   "today.why": "WARUM SOLLTEN WIR HANDELN?",
@@ -21,6 +25,7 @@
   "today.how_text": "Wir haben ein globales System geschaffen, das einfache tägliche Handlungen in eine sichtbare, vernetzte Bewegung verwandelt.",
   "today.what": "WELCHE LÖSUNG BIETEN WIR?",
   "today.what_text": "Eine Plattform, eine Gemeinschaft und eine Technologie, die es jedem ermöglichen, dem Frieden weltweit beizutreten und ihn zu verbreiten.",
+
   "first.heading": "NAVA PEACE IST DAS WELTWEIT ERSTE TECHNOLOGISCHE WERKZEUG, DAS ENTWICKELT WURDE, UM <strong>FRIEDEN SICHTBAR</strong> ZU MACHEN <em>ZUM ERSTEN MAL IN DER MENSCHHEITSGESCHICHTE</em>",
   "first.by": "INDEM:",
   "first.li1": "Jeder Mensch zu einem Leuchtfeuer des Friedens wird.",
@@ -31,6 +36,7 @@
   "first.li6": "Enthüllt wird, was die Menschheit nie messen konnte: Frieden.",
   "first.li7": "Frieden in eine kollektive Kraft verwandelt wird.",
   "first.li8": "Frieden zu einer unbestreitbaren Tatsache gemacht wird.",
+
   "app.heading": "DIE NAVA PEACE APP",
   "app.subheading": "Die NAVA PEACE-Initiative wird eine App nutzen, um die Welt zu vereinen.",
   "app.phone1": "Eine einfache App für alle,<br/>die Zeit der Suche nach FRIEDEN.",
@@ -50,8 +56,10 @@
   "app.feat4": "Aktions-Dashboard",
   "app.feat5": "Integriertes Wallet und NAVA Blockchain",
   "app.feat6": "Gemeinschafts- und humanitäre Werkzeuge...",
+
   "vision.heading": "UNSERE VISION FÜR<br/>NAVA PEACE",
   "vision.text": "NAVA PEACE strebt danach, das erste globale <strong>WEB3-Ökosystem</strong> zu werden, das vollständig auf <strong>Frieden, Würde</strong> und <strong>Solidarität</strong> aufgebaut ist.",
+
   "community.title": "Globale Gemeinschaft",
   "community.p1": "Jeder kann uns beitreten. Wir werden dem FRIEDEN den Wert geben, den er verdient. Jeder, unabhängig von Land, Alter oder Religion, ist bei NAVA PEACE willkommen. Frieden geht uns alle an. Es hat keinen Sinn, über den Klimawandel zu sprechen, wenn der Frieden sich nicht durchsetzt.",
   "community.quote1": "\"Wenn Krieg ein Markt ist, dann muss Frieden zu einer wirtschaftlichen Kraft werden.\"",
@@ -67,6 +75,7 @@
   "community.p_consensus2": "Was ist Konsens? Konsens bedeutet, dass sich alle auf die gleiche Wahrheit einigen. Bedrucktes Papier = Geld.",
   "community.p_consensus3": "Also machen wir den nächsten Schritt: NAVA PEACE ist die erste Friedenswirtschaft.",
   "community.p_web3": "Wir werden ein Netzwerk von Menschen schaffen, die anerkennen, dass der NAVA PEACE Token eine Währung ist, und dass wir ihn mit vollem Vertrauen verwenden können, genau wie jede Fiatwährung. Willkommen im Web3.",
+
   "manifesto.heading": "PHILOSOPHISCHES<br/>MANIFEST",
   "manifesto.quote1": "\"Jeden Tag hat die Menschheit eine Wahl.<br/>Heute wählen wir den Frieden.\"",
   "manifesto.p1": "Es gibt einen Moment, unsichtbar und doch entscheidend, in dem eine Zivilisation wählt, was sie werden will. Dieser Moment ist weder politisch, noch religiös, noch wirtschaftlich. Er ist innerlich, still, individuell.",
@@ -106,6 +115,7 @@
   "manifesto.li19": "Und jeden Tag, mit einer einfachen Geste,",
   "manifesto.li20": "schreiben wir gemeinsam den schönsten Satz in der Geschichte der Menschheit:",
   "manifesto.quote3": "\"Heute, für mich, für dich,<br/>für uns, wähle ich den Frieden.\"",
+
   "blockchain.heading": "NAVA PEACE BLOCKCHAIN",
   "blockchain.p1": "Unsere Blockchain vereint alle wesentlichen Säulen einer Infrastruktur der nächsten Generation. Entwickelt für kompromisslose Sicherheit, nahtlose Skalierbarkeit, ultrageringe Gebühren und radikale Öko-Effizienz, setzt sie einen neuen Maßstab für verantwortungsvolle Innovation.",
   "blockchain.stat": "100-mal weniger energieintensiv als die Bitcoin-Blockchain.",
@@ -152,6 +162,7 @@
   "blockchain.nut_li2": "\"The Forge\" baut die modulare Intelligenz, die es möglich macht.",
   "blockchain.nut_li3": "\"ChessChain\" ist die erste Demonstration.",
   "blockchain.nut_li4": "Wir bauen das fraktale GPS des KI-Zeitalters.",
+
   "foundation.heading": "NAVA PEACE<br/>STIFTUNG",
   "foundation.subheading": "Eine transparente und handlungsorientierte Stiftung, die Kriegsopfer unterstützt und Friedensinitiativen finanziert.",
   "foundation.h_humanitarian": "Humanitäre Unterstützung",
@@ -174,6 +185,7 @@
   "foundation.li8": "eine globale Flotte von Freiwilligen, die bereit sind zu helfen",
   "foundation.li9": "schwimmende Farmen und vieles mehr...",
   "foundation.p3": "Ein globales Schnellreaktionsnetzwerk wird eingesetzt, um Krisengebieten sofortige Hilfe zu leisten.",
+
   "howtoplay.heading": "ALLES, WAS SIE WISSEN MÜSSEN.",
   "howtoplay.sub1": "Wie spielt man? Wie verbessert man sich?",
   "howtoplay.sub2": "Wie gewinnt man? Und vor allem... warum?",
@@ -188,6 +200,7 @@
   "howtoplay.intro_p8": "Ich hoffe, dass Millionen, Milliarden von uns jeden Tag spielen und mit unseren Freunden teilen.",
   "howtoplay.intro_p9": "Jedes Mal, wenn du die App öffnest, um zu spielen, wählst du eine bessere Zukunft für uns und für zukünftige Generationen.",
   "howtoplay.intro_p10": "Bewusst wirst du an einer neuen Form der Wirtschaft teilnehmen: der Friedenswirtschaft.",
+
   "howtoplay.start_heading": "WIE MAN ANFÄNGT<br/>NAVA PEACE ZU SPIELEN",
   "howtoplay.start_title": "Wie fängt man an, NAVA PEACE zu spielen?",
   "howtoplay.start_p1": "Um zu beginnen:",
@@ -196,6 +209,7 @@
   "howtoplay.start_li3": "Wähle deinen Avatar",
   "howtoplay.start_li4": "Du erhältst automatisch dein erstes Abzeichen: PEACE LOVER",
   "howtoplay.start_welcome": "WILLKOMMEN beim NAVA PEACE Abenteuer!",
+
   "howtoplay.tokens_title": "Wie bekomme ich meine ersten NAVA Token?",
   "howtoplay.tokens_p1": "Deine tägliche PEACE LOVER Mission ist:",
   "howtoplay.tokens_li1": "Öffne die App einmal alle 24 Stunden (häufiger, wenn du aufsteigst)",
@@ -203,6 +217,7 @@
   "howtoplay.tokens_congrats": "Herzlichen Glückwunsch! Deine tägliche Aktion für den Frieden ist abgeschlossen! Bis morgen!",
   "howtoplay.tokens_tip1": "Tipp: Stelle dir einen täglichen Alarm, damit du nie deine Mining-Sitzung verpasst.",
   "howtoplay.tokens_tip2": "Indem du deine Freunde mit deinem Empfehlungscode einlädst, verdienst du zusätzliche Token.",
+
   "howtoplay.invite_title": "Wie funktioniert das Einladungssystem?",
   "howtoplay.invite_p1": "Nachdem du eine Einladung an deine Freunde mit deinem einzigartigen Code gesendet hast, werden sie aktiv, wenn sie anfangen zu spielen!",
   "howtoplay.invite_p2": "1 aktiver Freund = Belohnung = 1 Token pro aktivem Freund",
@@ -211,6 +226,7 @@
   "howtoplay.invite_p5": "Mach dich bereit, kostenlose NFTs (Level-Abzeichen) zu verdienen und in den Rängen aufzusteigen!",
   "howtoplay.invite_p6": "Je mehr Einladungen du versendest, desto größer sind deine Chancen, KOSTENLOSE NFTs zu erhalten und deine Belohnungen explodieren zu sehen.",
   "howtoplay.invite_p7": "1 Token pro aktivem Freund ist riesig. Da das Mining deflationär sein wird, wird der Einladungs-Token immer lohnenswert sein.",
+
   "howtoplay.nft_title": "Wie bekomme ich NAVA PEACE NFTs?",
   "howtoplay.nft_p1": "NFTs sind ab dem ersten Tag des Starts der Gamification-App verfügbar.",
   "howtoplay.nft_p2": "Welche verschiedenen Level gibt es?",
@@ -226,6 +242,7 @@
   "howtoplay.ref5": "TBD Empfehlungen = 1 PEACE LEGEND",
   "howtoplay.ref6": "Sofortiges Upgrade von LOVER → LEGEND",
   "howtoplay.ref7": "Exklusiver Zugang und globale Privilegien",
+
   "howtoplay.nft_why_title": "Warum sind NFTs wichtig?",
   "howtoplay.nft_why_p1": "Weil sie dir erlauben:",
   "howtoplay.nft_why_li1": "schneller zu minen",
@@ -234,15 +251,18 @@
   "howtoplay.nft_why_li4": "exklusive Rechte und Rabatte freizuschalten",
   "howtoplay.nft_why_p2": "Später vielleicht die Chance haben, für eine Saison im Vorstand der Stiftung zu dienen.",
   "howtoplay.nft_why_p3": "Ein NFT = ein Mining-Beschleuniger, eine Zukunftsinvestition, ein Vertrauensbeweis = ein bedingungsloses Engagement",
+
   "howtoplay.mining_title": "Was ist Mining bei NAVA PEACE? Wie funktioniert es?",
   "howtoplay.mining_p1": "Phase 1: Stell dir NAVA PEACE als ein riesiges globales Videospiel vor, in dem jeder danach strebt, den Planeten jeden Tag ein wenig freundlicher zu machen, mit einem gemeinsamen Endziel:",
   "howtoplay.mining_p2": "Eine Friedenswirtschaft zu schaffen, indem die ganze Welt in einer einzigen Gemeinschaft verbunden wird.",
   "howtoplay.mining_p3": "Um „Ich wähle heute den Frieden, für alle, überall auf der Welt” zu teilen, musst du nur auf einen magischen Button in der App tippen.",
   "howtoplay.mining_p4": "Und wenn du auf diesen Button tippst... passiert etwas Erstaunliches.<br/>Du verdienst NAVA Token. Das nennt man Mining. Jede Transaktion wird auf der Blockchain aufgezeichnet. Sie ist unumkehrbar, unveränderlich und anonym.",
+
   "howtoplay.what_mining_title": "Also, was ist Mining?",
   "howtoplay.what_mining_p1": "Mining ist ein Prozess, der auf der Blockchain bei jeder friedlichen Aktion stattfindet, die du durchführst. Jede Aktion wird aufgezeichnet und ist für alle Benutzer sichtbar, die mit der Blockchain verbunden sind. Alle Aktionen werden gezählt und mit einem Wallet verknüpft: deinem.",
   "howtoplay.what_mining_p2": "Du brauchst keine Maschine und keinen Strom.",
   "howtoplay.what_mining_p3": "Alles, was du brauchst, ist dein Telefon und deine Bereitschaft teilzunehmen.",
+
   "howtoplay.how_mining_title": "Wie funktioniert Mining bei NAVA PEACE?",
   "howtoplay.how_mining_p1": "Du wirst belohnt für:",
   "howtoplay.how_mining_li1": "Deine tägliche Mining-Aktivität",
@@ -258,6 +278,7 @@
   "howtoplay.how_mining_p5": "Wenn du höhere Level erreichst → kannst du schneller minen.",
   "howtoplay.how_mining_p6": "Verdient jeder den gleichen Betrag?",
   "howtoplay.how_mining_p7": "Ja und nein.<br/>Die Spielregeln sind für alle gleich, aber wenn einige viele Freunde haben oder in NFTs investieren, um schneller voranzukommen, dann werden sie deutlich mehr Token verdienen.",
+
   "howtoplay.halving_title": "Alle 30 Tage wird die Mining-Belohnung halbiert.",
   "howtoplay.halving_p1": "Dieses System gewährleistet Fairness für alle und belohnt deine Aktionen: Es heißt Halving.",
   "howtoplay.halving_p2": "Wenn die Belohnungen auf unbestimmte Zeit hoch blieben, würde das System mit Token überflutet und ihr Wert würde erheblich sinken. Das Halving verlangsamt die Produktion im Laufe der Zeit, bewahrt die Knappheit, kontrolliert die Inflation und belohnt frühe Teilnehmer, während es wirtschaftliche Stabilität für alle gewährleistet.",
@@ -270,6 +291,7 @@
   "howtoplay.halving_r6": "Von Tag 151 bis Tag 180 ist die Schwierigkeit 32.<br/>Jeder Klick auf den „Frieden”-Button bringt dir 0.03125 Token.",
   "howtoplay.halving_p4": "Das HALVING der Token ist notwendig, um ihren Wert und die Fairness zu bewahren.",
   "howtoplay.halving_p5": "Gemeinsam bauen wir eine friedliche Wirtschaft durch Millionen friedlicher Aktionen auf.",
+
   "howtoplay.season_title": "Was passiert am Ende der SAISON 1?",
   "howtoplay.season_p1": "Saison 1 wird 180 Tage dauern.",
   "howtoplay.season_p2": "Während dieser 180 Tage schaffen IHR, die Miner, die wirtschaftliche Basis des NAVA PEACE Tokens.<br/>Dies entspricht 20% des gesamten ausgegebenen Angebots.",
@@ -277,9 +299,16 @@
   "howtoplay.season_p4": "Zum Beispiel: Wenn 100 Millionen Token während Saison 1 ausgegeben werden, werden gleichzeitig 400 Millionen NAVA PEACE Token für ein Gesamtangebot von 500 Millionen Token ausgegeben.",
   "howtoplay.season_p5": "Diese Token werden dann automatisch wie folgt an das Ziel-Wallet gesendet:",
   "howtoplay.season_li1": "50% NAVA PEACE WORLD Stiftung",
-  "howtoplay.season_li2": "20% Liquiditätspool",
+  "howtoplay.season_li2": "20% Gemeinschaft",
   "howtoplay.season_li3": "14% Strategische Reserve",
-  "howtoplay.season_li4": "6% Gründer/Schöpfer/Vorsitzender",
+  "howtoplay.season_li4": "10% Liquiditätspool",
+  "howtoplay.season_li5": "6% Gründer/Schöpfer/Vorsitzender",
+  "howtoplay.season_li1_desc": "50% der vom Smart Contract generierten Token gehen an die NAVA PEACE Stiftung zur Finanzierung humanitärer Projekte, die von der Gemeinschaft gewählt wurden.",
+  "howtoplay.season_li2_desc": "20% werden an die Gemeinschaft verteilt: aktive Spieler, Top-Beitragende, Empfehlungsführer und frühe Unterstützer von NAVA PEACE.",
+  "howtoplay.season_li3_desc": "14% werden als strategische Reserve gehalten, um die langfristige Nachhaltigkeit zu sichern und die zukünftige Entwicklung des Ökosystems zu finanzieren.",
+  "howtoplay.season_li4_desc": "10% werden Liquiditätspools an Börsen zugeteilt, damit der NAVA PEACE Token frei gekauft und verkauft werden kann.",
+  "howtoplay.season_li5_desc": "6% werden dem Gründerteam als Belohnung für ihre Arbeit zugeteilt, vorbehaltlich eines langfristigen Vesting-Zeitplans.",
+
   "howtoplay.access_title": "Wann kann ich auf meine Token zugreifen?",
   "howtoplay.access_p1": "Du hast am Ende der 180-Tage-Saison Zugang zu deinen Token.<br/>Am Ende der Saison 1:",
   "howtoplay.access_li1": "Unsere Blockchain wird betriebsbereit sein.",
@@ -292,6 +321,7 @@
   "howtoplay.access_li7": "eine NAVA PEACE Kreditkarte bei der NAVA PEACE BANK bestellen;",
   "howtoplay.access_li8": "eine NAVA PEACE Versicherung abschließen;",
   "howtoplay.access_li9": "NAVA Token transferieren, NAVA PEACE Token an deine Lieblings-NGO spenden...",
+
   "howtoplay.wallet_title": "Wie wird dein digitales Wallet gesichert?",
   "howtoplay.wallet_p1": "Ein digitales Wallet wird automatisch generiert.",
   "howtoplay.wallet_li1": "Zur Sicherung wird eine 24-Wort-Wiederherstellungsphrase verwendet.",
@@ -303,13 +333,16 @@
   "howtoplay.wallet_li6": "einen privaten Schlüssel,",
   "howtoplay.wallet_li7": "eine Wiederherstellungsphrase (Seed Phrase),",
   "howtoplay.wallet_li8": "und verknüpft sie mit dem Benutzer.",
+
   "howtoplay.phase2": "In Phase 2 werden wir die \"Nava Peace World\" App starten, eine Super-App, die dich mit dem gesamten Markt der PEACE LOVERS weltweit verbindet.",
+
   "roadmap.heading": "NAVA PEACE ROADMAP<br/>– 2025 → 2026 –",
   "roadmap.phase1_badge": "PHASE 1 — GENESIS (Q4 2025)",
   "roadmap.phase1_sub": "Geburt der Bewegung + technische Grundlagen.",
   "roadmap.phase1_li1": "Juni 2025: Die Vision der Notwendigkeit, eine Friedens-App zu erstellen.",
   "roadmap.phase1_li2": "25. Oktober 2025: Erstellung des ersten funktionsfähigen Prototyps.",
   "roadmap.phase1_p1": "Erstellung des NAVA PEACE Konzepts.<br/>Philosophisches Manifest und Markenidentität.<br/>Entwicklung der Anwendung (MVP).<br/>Start der offiziellen Website.<br/>Start des SEEDS-Programms (1 Gründungsinvestor)",
+
   "roadmap.phase2_badge": "PHASE 2 — ERSTELLUNG UND LAUNCH DER NAVA PEACE ANWENDUNG (Q1-Q2 2026)",
   "roadmap.phase2_li1": "Unternehmensgründung, Lizenzen...",
   "roadmap.phase2_li2": "Teamrekrutierung",
@@ -366,6 +399,7 @@
   "roadmap.phase2_goal": "180-Tage-Ziel:<br/>500 Millionen bis 1 Milliarde Nutzer",
   "roadmap.phase2_foundation1": "Gründung der Friedensstiftung (Unterstützung für Kriegs- und Naturkatastrophenopfer)",
   "roadmap.phase2_foundation2": "Einrichtung des Friedensrats (Berater und Experten)",
+
   "roadmap.phase3_badge": "PHASE 3 — WIRTSCHAFT UND BLOCKCHAIN (Q3 2026)",
   "roadmap.phase3_li1": "Start der NAVA PEACE Blockchain (Hauptnetzwerk)",
   "roadmap.phase3_li2": "Offizieller Start des NAVA PEACE Tokens und Aufbau einer realen Wirtschaft",
@@ -393,6 +427,7 @@
   "roadmap.phase3_merchant3": "Rabatte oder Belohnungen anbieten",
   "roadmap.phase3_p4": "Entwicklung des DAO-Governance-Systems<br/>Erste humanitäre Missionen, finanziert durch die Friedensstiftung",
   "roadmap.phase3_goal": "Ziel: 3 Milliarden Nutzer",
+
   "roadmap.phase4_badge": "PHASE 4 — GLOBALER IMPACT (2027-2030)",
   "roadmap.phase4_p1": "NAVA PEACE wird zu einer echten globalen Friedenswirtschaft.",
   "roadmap.phase4_li1": "Internationale Adoption: Händler, NGOs, Institutionen",
@@ -404,6 +439,7 @@
   "roadmap.phase4_li7": "Ziel: 1 bis 3 Milliarden Friedensbürger",
   "roadmap.phase4_li8": "Erstellung des Friedensindex, ein globales Wirkungsmaß",
   "roadmap.phase4_li9": "Institutionelle Anerkennung (UN, UNESCO, Partnerregierungen)",
+
   "founder.heading": "ÜBER DEN GRÜNDER",
   "founder.p1": "Mein Name ist Alan August, ich bin Unternehmer, Weltenbummler, Lebensliebhaber und Weltbürger. Als Zeuge all dieses Leidens über die Jahre habe ich mich und meine Freunde gefragt: Wie können wir 2025 nicht in Frieden leben, wie?",
   "founder.p2": "NAVA PEACE ist meine Antwort und meine bescheidene Einladung, die Welt zu verändern.",
@@ -413,17 +449,21 @@
   "founder.p5": "Es gibt keine bessere Investition als eine Welt in Frieden.",
   "founder.p6": "Mit der NAVA PEACE App ist jeder Tap ein Flüstern des Friedens im Werden. Millionen von Flüstern werden zu einer Stimme, die die Welt nicht ignorieren kann.",
   "founder.signature": "Alan August<br/>Gründer, NAVA PEACE",
+
   "footer.copyright": "© 2025 NAVA PEACE — Alle Rechte vorbehalten",
   "footer.tagline": "Gebaut mit Liebe, Mut und dem tiefen Glauben, dass Frieden in uns beginnt.",
+
   "cta.download": "NAVA PEACE BEITRETEN",
   "cta.join": "DER BEWEGUNG BEITRETEN",
   "cta.start": "FRIEDENS-MINING STARTEN",
+
   "nav.game2economy": "Vom Spiel zur Wirtschaft",
   "nav.community": "Gemeinschaft",
+  "nav.merch": "Shop",
   "game2economy.heading": "VOM SPIEL<br/>ZUR WIRTSCHAFT",
   "game2economy.sub": "Wie eine tägliche Geste zu einer globalen Friedenswirtschaft wird.",
   "game2economy.step1_title": "DU SPIELST",
-  "game2economy.step1_text": "Jeden Tag öffnest du die App und klickst auf „Ich wähle den Frieden.“ Diese einfache Geste ist dein tägliches Engagement — und sie mint NAVA Token.",
+  "game2economy.step1_text": "Jeden Tag öffnest du die App und klickst auf \u201EIch wähle den Frieden.\u201C Diese einfache Geste ist dein tägliches Engagement — und sie mint NAVA Token.",
   "game2economy.step2_title": "TOKEN WERDEN ERSTELLT",
   "game2economy.step2_text": "Deine Aktion wird auf der Blockchain aufgezeichnet. Jeder Klick erzeugt Token — eine echte digitale Währung, nicht nur Punkte. Je mehr du spielst, desto mehr verdienst du.",
   "game2economy.step3_title": "DIE WIRTSCHAFT WÄCHST",
@@ -431,5 +471,14 @@
   "game2economy.why_token_title": "Warum Frieden tokenisieren?",
   "game2economy.why_token": "Ein Token ist eine digitale Werteinheit, wie eine Münze in einem Videospiel — außer dass diese real ist. Wenn du NAVA PEACE spielst, erzeugt deine tägliche Aktion Token auf der Blockchain. Diese Token können getauscht, gespart oder zur Unterstützung humanitärer Anliegen verwendet werden. Frieden zu tokenisieren bedeutet, deinem Engagement einen messbaren, handelbaren und transparenten Wert zu geben. Zum ersten Mal hat Frieden eine Wirtschaft.",
   "game2economy.quote": "\"Wenn Krieg ein Markt ist, dann muss Frieden zu einer wirtschaftlichen Kraft werden.\"",
-  "game2economy.summary": "Gamification ist kein Gimmick — es ist der Motor. Indem wir Frieden in eine tägliche Praxis verwandeln, schaffen wir den kollektiven Schwung, der nötig ist, um eine echte, tokenisierte Friedenswirtschaft aufzubauen, gestützt durch Blockchain-Transparenz."
+  "game2economy.summary": "Gamification ist kein Gimmick — es ist der Motor. Indem wir Frieden in eine tägliche Praxis verwandeln, schaffen wir den kollektiven Schwung, der nötig ist, um eine echte, tokenisierte Friedenswirtschaft aufzubauen, gestützt durch Blockchain-Transparenz.",
+
+  "merch.heading": "Trage den Frieden",
+  "merch.tagline": "Jeder Artikel finanziert die Mission.",
+  "merch.description": "Unsere Kleidung und Accessoires sind keine einfachen Produkte — sie sind Aussagen. Jeder Kauf unterstützt direkt die Mission von NAVA PEACE und finanziert humanitäre Hilfe auf der ganzen Welt.",
+  "merch.badge1": "Weltweiter Versand",
+  "merch.badge2": "Ethische Materialien",
+  "merch.badge3": "Jeder Kauf spendet",
+  "merch.cta": "Jetzt kaufen",
+  "merch.available": "Erhältlich bei"
 }
