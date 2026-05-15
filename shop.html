@@ -928,7 +928,7 @@ function renderVariants(variants) {
     selectedSize = sizes[0];
     html += `<p class="variant-label">SIZE</p><div class="chips" id="size-chips">`;
     html += sizes.map((s, i) =>
-      `<div class="chip${i===0?' selected':''}" data-val="${s.replace(/"/g,'&quot;')}" onclick="selectSize(this.dataset.val)">${s}</div>`
+      `<div class="chip${i===0?' selected':''}" data-type="size" data-val="${s.replace(/"/g,'&quot;')}">${s}</div>`
     ).join('');
     html += '</div>';
   } else if (sizes.length === 1) { selectedSize = sizes[0]; }
@@ -937,7 +937,7 @@ function renderVariants(variants) {
     selectedColor = colors[0];
     html += `<p class="variant-label">COLOR</p><div class="chips" id="color-chips">`;
     html += colors.map((c, i) =>
-      `<div class="chip${i===0?' selected':''}" data-val="${c.replace(/"/g,'&quot;')}" onclick="selectColor(this.dataset.val)">${c}</div>`
+      `<div class="chip${i===0?' selected':''}" data-type="color" data-val="${c.replace(/"/g,'&quot;')}">${c}</div>`
     ).join('');
     html += '</div>';
   } else if (colors.length === 1) { selectedColor = colors[0]; }
@@ -1082,6 +1082,15 @@ async function checkSuccess() {
     }
   } catch { /* silent — payment succeeded, YOYCOL order will be retried manually if needed */ }
 }
+
+// ── Event delegation for variant chips (more reliable on mobile than onclick) ──
+document.addEventListener('click', e => {
+  const chip = e.target.closest('[data-type="size"],[data-type="color"]');
+  if (!chip) return;
+  const val = chip.dataset.val;
+  if (chip.dataset.type === 'size')  selectSize(val);
+  if (chip.dataset.type === 'color') selectColor(val);
+});
 
 // ── Overlay backdrop close ─────────────────────────────────
 window.addEventListener('load', () => {
