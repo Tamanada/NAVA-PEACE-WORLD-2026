@@ -555,7 +555,11 @@ let selectedSize   = null;
 let selectedColor  = null;
 let selectedVariant = null;
 let qty = 1;
-let cart = JSON.parse(localStorage.getItem('nava_shop_cart') || '[]');
+// Safe localStorage (throws in iOS Safari private mode)
+function lsGet(key, fallback) { try { return JSON.parse(localStorage.getItem(key) || 'null') ?? fallback; } catch { return fallback; } }
+function lsSet(key, val)      { try { localStorage.setItem(key, JSON.stringify(val)); } catch {} }
+
+let cart = lsGet('nava_shop_cart', []);
 
 // ── Normalise ──────────────────────────────────────────────
 function normalizeProduct(p) {
@@ -590,7 +594,7 @@ function toast(msg) {
 }
 
 // ── Cart ───────────────────────────────────────────────────
-function saveCart() { localStorage.setItem('nava_shop_cart', JSON.stringify(cart)); }
+function saveCart() { lsSet('nava_shop_cart', cart); }
 
 function updateCartBadge() {
   const total = cart.reduce((s, i) => s + i.qty, 0);
@@ -846,6 +850,7 @@ async function openDetail(productId) {
   if (!prod) return;
 
   currentProd = prod;
+  currentFiltered = [];
   selectedSize = selectedColor = selectedVariant = null;
   qty = 1;
   document.getElementById('qty-val').textContent = '1';
@@ -874,7 +879,7 @@ async function openDetail(productId) {
 // Remove clothing size codes when product has dimension-based sizes
 function filterVariantSizes(sizes) {
   const CLOTHING_RE = /^(2?XS|XS|S|M|N|L|XM|XL|2XL|3XL|4XL|5XL|6XL|7XL|8XL|XXL|XXXL|ONE\s*SIZE)$/i;
-  const hasDims = sizes.some(s => /\d+\s*[x×]\s*\d+/i.test(s) || /^\d+\s*cm/i.test(s));
+  const hasDims = sizes.some(s => /\d+\s*x\s*\d+/i.test(s) || /^\d+\s*cm/i.test(s));
   return hasDims ? sizes.filter(s => !CLOTHING_RE.test(s.trim())) : sizes;
 }
 
