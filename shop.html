@@ -558,7 +558,8 @@ let qty = 1;
 function lsGet(key, fallback) { try { return JSON.parse(localStorage.getItem(key) || 'null') ?? fallback; } catch { return fallback; } }
 function lsSet(key, val)      { try { localStorage.setItem(key, JSON.stringify(val)); } catch {} }
 
-let cart = lsGet('nava_shop_cart', []);
+let cart       = lsGet('nava_shop_cart', []);
+const priceCache = {}; // productId → display string, persists across filter changes
 
 // ── Normalise ──────────────────────────────────────────────
 function normalizeProduct(p) {
@@ -787,6 +788,8 @@ function applyFilter(el, kw) {
     ? allProducts.filter(p => kw.split(' ').some(k => p.title.toLowerCase().includes(k)))
     : allProducts;
   renderGrid(filtered);
+  // Re-apply cached prices (DOM was just rebuilt)
+  filtered.forEach(p => fetchBasePrice(p));
 }
 
 // ── Grid ───────────────────────────────────────────────────
@@ -797,7 +800,9 @@ function renderGrid(products) {
     grid.style.display = 'grid';
     return;
   }
-  grid.innerHTML = products.map(p => `
+  grid.innerHTML = products.map(p => {
+    const cached = priceCache[p.id];
+    return `
     <div class="product-card" onclick="openDetail('${p.id}')">
       <div class="product-img">
         ${p.image ? `<img src="${p.image}" alt="${p.title}" loading="lazy"/>` : '🛍'}
@@ -805,14 +810,21 @@ function renderGrid(products) {
       <div class="product-info">
         <div class="product-name">${p.title}</div>
         <div class="product-price-row">
-          <span class="product-price loading" id="price-${p.id}">···</span>
+          <span class="product-price${cached ? '' : ' loading'}" id="price-${p.id}">${cached || '···'}</span>
         </div>
       </div>
-    </div>`).join('');
+    </div>`;
+  }).join('');
   grid.style.display = 'grid';
 }
 
 async function fetchBasePrice(prod) {
+  // Already cached → just update DOM if card is visible
+  if (priceCache[prod.id]) {
+    const el = document.getElementById(`price-${prod.id}`);
+    if (el) { el.textContent = priceCache[prod.id]; el.classList.remove('loading'); }
+    return;
+  }
   try {
     const res  = await fetch(`${PROXY_URL}?action=template&productId=${prod.id}`);
     const data = await res.json();
@@ -821,9 +833,12 @@ async function fetchBasePrice(prod) {
     if (!rawVariants.length) return;
     const prices = rawVariants.map(v => parseFloat(v.price || 0)).filter(p => p > 0);
     if (!prices.length) return;
-    const retail = retailPrice(Math.min(...prices), prod.title);
+    const lo     = retailPrice(Math.min(...prices), prod.title);
+    const hi     = retailPrice(Math.max(...prices), prod.title);
+    const label  = lo === hi ? `$${lo.toFixed(2)}` : `from $${lo.toFixed(2)}`;
+    priceCache[prod.id] = label;
     const el = document.getElementById(`price-${prod.id}`);
-    if (el) { el.textContent = `$${retail.toFixed(2)}`; el.classList.remove('loading'); }
+    if (el) { el.textContent = label; el.classList.remove('loading'); }
   } catch { /* silent */ }
 }
 
