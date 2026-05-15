@@ -366,8 +366,7 @@
 <section class="hero">
   <div class="hero-eyebrow">OFFICIAL MERCHANDISE</div>
   <h1 class="hero-title">WEAR THE<br>MISSION</h1>
-  <p class="hero-sub">Every item is printed on demand and ships worldwide. Your purchase directly funds the NAVA PEACE Foundation's peace-building work.</p>
-  <div class="hero-mission">🕊 100% of profits support victims of war</div>
+  <p class="hero-sub">Every item is printed on demand and ships worldwide.</p>
 </section>
 
 <!-- ── SUCCESS BANNER (shown after Stripe redirect) ───────── -->
@@ -758,16 +757,24 @@ async function loadProducts() {
 // ── Filters ────────────────────────────────────────────────
 const FILTER_KEYWORDS = [
   { label: 'ALL',           kw: '' },
-  { label: 'CLOTHING',      kw: 'shirt dress shorts swimsuit bikini' },
-  { label: 'ACCESSORIES',   kw: 'bag cap tote gaiter' },
+  { label: 'CLOTHING',      kw: 'shirt dress shorts' },
+  { label: 'SWIMWEAR',      kw: 'swimsuit bikini' },
+  { label: 'ACCESSORIES',   kw: 'bag cap tote gaiter bandana balaclava scarf glove' },
   { label: 'PHONE CASES',   kw: 'phone iphone samsung airbag' },
-  { label: 'HOME & DECOR',  kw: 'mug towel flag quilt bedding' },
+  { label: 'HOME & DECOR',  kw: 'mug towel quilt bedding pillow curtain blanket' },
+  { label: 'FLAGS & PRINTS',kw: 'flag banner poster print canvas' },
+  { label: 'LIFESTYLE',     kw: 'playing cards puzzle keychain sticker notebook journal' },
 ];
 let activeFilter = '';
 
+// Only render categories that have at least 1 matching product
 function buildFilters() {
   const el = document.getElementById('filters');
-  el.innerHTML = FILTER_KEYWORDS.map((f, i) =>
+  el.innerHTML = FILTER_KEYWORDS.filter(f => {
+    if (!f.kw) return true; // always show ALL
+    const words = f.kw.split(' ');
+    return allProducts.some(p => words.some(k => p.title.toLowerCase().includes(k)));
+  }).map((f, i) =>
     `<div class="filter-chip${i === 0 ? ' active' : ''}" data-kw="${f.kw}" onclick="applyFilter(this, '${f.kw}')">${f.label}</div>`
   ).join('');
 }
