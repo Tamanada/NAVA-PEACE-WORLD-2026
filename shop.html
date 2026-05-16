@@ -486,28 +486,10 @@ const TARGET_MARGIN     = 7;
 const SHIPPING_ESTIMATE = 9;
 const MIN_RETAIL        = 19.99;
 
-const PRICE_MAP = [
-  { kw:'shorts',            price:19.99 },
-  { kw:'iphone',            price:19.99 },
-  { kw:'mobile phone case', price:19.99 },
-  { kw:'mug',               price:19.99 },
-  { kw:'airbag',            price:19.99 },
-  { kw:'gaiter',            price:19.99 },
-  { kw:'tote',              price:19.99 },
-  { kw:'peaked cap',        price:19.99 },
-  { kw:'playing cards',     price:24.99 },
-  // beach towel excluded → formula (size-dependent price)
-  { kw:'swimsuit',          price:24.99 },
-  { kw:'t-shirt',           price:24.99 },
-  { kw:'chest bag',         price:24.99 },
-];
-
-function retailPrice(wholesale, productName) {
-  if (productName) {
-    const n = productName.toLowerCase();
-    for (const { kw, price } of PRICE_MAP) if (n.includes(kw)) return price;
-  }
-  if (!wholesale) return MIN_RETAIL;
+// PRICE_MAP removed — formula applies to all products so prices vary by size
+// formula: YOYCOL wholesale + $9 shipping + $7 margin → nearest X.99, min $19.99
+function retailPrice(wholesale) {
+  if (!(wholesale > 0)) return MIN_RETAIL;
   const target = wholesale + SHIPPING_ESTIMATE + TARGET_MARGIN;
   return parseFloat(Math.max(MIN_RETAIL, Math.round(target + 0.01) - 0.01).toFixed(2));
 }
@@ -584,7 +566,7 @@ function normalizeVariant(v) {
     variantId:   String(v.variantId || v.mappingVariantId || ''),
     size:        v.size       || v.sizeName   || '',
     color:       v.color      || v.colorName  || '',
-    salesPrice:  parseFloat(v.price || v.salesPrice || 0),
+    salesPrice:  parseFloat(v.price > 0 ? v.price : (v.salesPrice || v.salePrice || v.costPrice || v.basePrice || 0)),
     mockupImages,
     available:   v.available !== false && v.status !== 'disable',
   };
@@ -842,8 +824,8 @@ async function fetchBasePrice(prod) {
     if (!rawVariants.length) return;
     const prices = rawVariants.map(v => parseFloat(v.price || 0)).filter(p => p > 0);
     if (!prices.length) return;
-    const lo     = retailPrice(Math.min(...prices), prod.title);
-    const hi     = retailPrice(Math.max(...prices), prod.title);
+    const lo     = retailPrice(Math.min(...prices));
+    const hi     = retailPrice(Math.max(...prices));
     const label  = lo === hi ? `$${lo.toFixed(2)}` : `from $${lo.toFixed(2)}`;
     priceCache[prod.id] = label;
     const el = document.getElementById(`price-${prod.id}`);
@@ -975,8 +957,8 @@ function resolveVariant() {
     if (fallback) renderGallery(fallback.mockupImages?.length ? fallback.mockupImages : (currentProd.image ? [currentProd.image] : []));
     const prices = available.map(v => v.salesPrice).filter(p => p > 0);
     if (prices.length) {
-      const lo = retailPrice(Math.min(...prices), currentProd?.title);
-      const hi = retailPrice(Math.max(...prices), currentProd?.title);
+      const lo = retailPrice(Math.min(...prices));
+      const hi = retailPrice(Math.max(...prices));
       document.getElementById('detail-usd').textContent = lo === hi ? `$${lo.toFixed(2)}` : `$${lo.toFixed(2)} – $${hi.toFixed(2)}`;
     }
   }
@@ -984,7 +966,7 @@ function resolveVariant() {
 
 function updateDetailPrice(wholesale) {
   if (!wholesale) { document.getElementById('detail-usd').textContent = '···'; return; }
-  const retail = retailPrice(wholesale, currentProd?.title);
+  const retail = retailPrice(wholesale);
   document.getElementById('detail-usd').textContent = `$${(retail * qty).toFixed(2)}`;
 }
 
@@ -1005,7 +987,7 @@ function renderDetailInfo(prod, variants) {
     ['Print',  printLabel],
     ...(sizes.length  ? [['Sizes',  sizes.length  <= 8 ? sizes.join(' · ')  : `${sizes.length} sizes`]] : []),
     ...(colors.length ? [['Colors', colors.length <= 6 ? colors.join(' · ') : `${colors.length} colors`]] : []),
-    ...(prices.length ? [['Price',  (() => { const lo = retailPrice(Math.min(...prices), prod.title), hi = retailPrice(Math.max(...prices), prod.title); return lo === hi ? `$${lo.toFixed(2)}` : `$${lo.toFixed(2)} – $${hi.toFixed(2)}`; })()] ] : []),
+    ...(prices.length ? [['Price',  (() => { const lo = retailPrice(Math.min(...prices)), hi = retailPrice(Math.max(...prices)); return lo === hi ? `$${lo.toFixed(2)}` : `$${lo.toFixed(2)} – $${hi.toFixed(2)}`; })()] ] : []),
     ...(prod.spuCode  ? [['Ref',    prod.spuCode]] : []),
   ];
   html += '<div class="detail-specs">' + specs.map(([k, v]) =>
@@ -1026,7 +1008,7 @@ function closeDetail() { document.getElementById('detail-overlay').classList.rem
 function addToCart() {
   if (!currentProd || !selectedVariant) { toast('⚠ Please select a variant first'); return; }
   const wholesale = selectedVariant.salesPrice;
-  const price     = retailPrice(wholesale, currentProd.title);
+  const price     = retailPrice(wholesale);
 
   // Check if same variant already in cart
   const existing = cart.find(i =>
