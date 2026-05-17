@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>NAVA PEACE — Shop</title>
   <meta name="description" content="Official NAVA PEACE merchandise. Every purchase supports the Foundation's peace mission worldwide."/>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
   <link rel="preconnect" href="https://fonts.googleapis.com"/>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
   <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet"/>
@@ -270,7 +273,7 @@
 
     /* Description & Specs */
     .detail-info{margin:16px 0 20px;}
-    .detail-desc{font-size:11px;line-height:1.8;color:var(--w60);letter-spacing:0.5px;margin-bottom:14px;}
+    .detail-desc{font-size:11px;line-height:1.8;color:var(--w60);letter-spacing:0.5px;margin-bottom:14px;max-height:130px;overflow-y:auto;scrollbar-width:thin;}
     .detail-specs{border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:12px;}
     .spec-row{display:flex;align-items:baseline;gap:10px;padding:9px 14px;border-bottom:1px solid var(--border);font-size:10px;}
     .spec-row:last-child{border-bottom:none;}
@@ -373,11 +376,11 @@
 
     /* ── FOOTER ──────────────────────────────────────────── */
     .site-footer{
-      border-top:1px solid var(--border);
+      border-top:1px solid rgba(255,255,255,0.25);
       padding:32px 24px;text-align:center;
-      font-size:10px;letter-spacing:2px;color:var(--w40);line-height:2;
+      font-size:10px;letter-spacing:2px;color:rgba(255,255,255,0.7);line-height:2;
     }
-    .site-footer a{color:var(--accent);text-decoration:none;}
+    .site-footer a{color:#fff;text-decoration:none;opacity:0.9;}
   </style>
 </head>
 <body>
@@ -579,6 +582,13 @@ let qty = 1;
 function lsGet(key, fallback) { try { return JSON.parse(localStorage.getItem(key) || 'null') ?? fallback; } catch { return fallback; } }
 function lsSet(key, val)      { try { localStorage.setItem(key, JSON.stringify(val)); } catch {} }
 
+// HTML escape — prevents XSS from YOYCOL API data injected into innerHTML
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c =>
+    ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])
+  );
+}
+
 let cart          = lsGet('nava_shop_cart', []);
 const priceCache  = {}; // productId → display string, persists across filter changes
 let priceOverrides = {}; // productId → admin-set retail price (from admin_settings)
@@ -740,9 +750,7 @@ async function startCheckout() {
 
     const data = await res.json();
     if (data.url) {
-      // Clear cart before redirect (confirmed intent)
-      cart = [];
-      saveCart();
+      // Cart is cleared only after Stripe confirms payment (in checkSuccess)
       window.location.href = data.url;
     } else {
       throw new Error(data.error || 'Stripe session creation failed');
@@ -776,9 +784,7 @@ async function loadProducts() {
 
     allProducts = rawRecords.map(normalizeProduct);
     document.getElementById('products-loading').style.display = 'none';
-    buildFilters();
-    renderGrid(allProducts);
-    allProducts.forEach(p => fetchBasePrice(p));
+    // buildFilters + renderGrid called by init() after Promise.all — do NOT call here
   } catch(e) {
     document.getElementById('products-loading').style.display = 'none';
     const emptyEl = document.getElementById('products-empty');
@@ -789,42 +795,82 @@ async function loadProducts() {
   }
 }
 
-// ── Filters ────────────────────────────────────────────────
-const FILTER_KEYWORDS = [
-  { label: 'ALL',           kw: '' },
-  { label: 'CLOTHING',      kw: 'shirt dress shorts' },
-  { label: 'SWIMWEAR',      kw: 'swimsuit bikini' },
-  { label: 'ACCESSORIES',   kw: 'bag cap tote gaiter bandana balaclava scarf glove' },
-  { label: 'PHONE CASES',   kw: 'phone iphone samsung airbag' },
-  { label: 'HOME & DECOR',  kw: 'mug towel quilt bedding pillow curtain blanket' },
-  { label: 'FLAGS & PRINTS',kw: 'flag banner poster print canvas' },
-  { label: 'LIFESTYLE',     kw: 'playing cards puzzle keychain sticker notebook journal' },
-];
-let activeFilter = '';
+// ── Filters — driven by admin merch_tabs config ────────────
+let _shopTabs    = {}; // { TAB: [id,...] } loaded from admin
+let activeFilter = 'ALL';
 
-// Only render categories that have at least 1 matching product
-function buildFilters() {
-  const el = document.getElementById('filters');
-  el.innerHTML = FILTER_KEYWORDS.filter(f => {
-    if (!f.kw) return true; // always show ALL
-    const words = f.kw.split(' ');
-    return allProducts.some(p => words.some(k => p.title.toLowerCase().includes(k)));
-  }).map((f, i) =>
-    `<div class="filter-chip${i === 0 ? ' active' : ''}" data-kw="${f.kw}" onclick="applyFilter(this, '${f.kw}')">${f.label}</div>`
-  ).join('');
+async function loadShopOrder() {
+  try {
+    const res  = await fetch(`${PROXY_URL}?action=get_merch_order`, { headers: AUTH_HEADERS, cache: 'no-store' });
+    const data = await res.json();
+    if (!Array.isArray(data) || !data.length) return;
+    const orderMap = {};
+    data.forEach((id, i) => { orderMap[String(id)] = i; });
+    allProducts.sort((a, b) => (orderMap[String(a.id)] ?? 9999) - (orderMap[String(b.id)] ?? 9999));
+  } catch(_) {}
 }
 
-function applyFilter(el, kw) {
+async function loadShopTabs() {
+  try {
+    const res  = await fetch(`${PROXY_URL}?action=get_merch_tabs`, { headers: AUTH_HEADERS, cache: 'no-store' });
+    const data = await res.json();
+    if (data && typeof data === 'object' && !data.error && Object.keys(data).length) {
+      _shopTabs = data;
+    }
+  } catch(e) { console.error('[shop] loadShopTabs failed:', e); }
+}
+
+function buildFilters() {
+  const el   = document.getElementById('filters');
+  const tabs = Object.keys(_shopTabs);
+  if (tabs.length) {
+    // Admin config available — use tab names + ID-based filtering
+    el.innerHTML = ['ALL', ...tabs].map((t, i) =>
+      `<div class="filter-chip${i === 0 ? ' active' : ''}" data-tab="${esc(t)}" onclick="applyTabFilter(this,'${esc(t)}')">${esc(t)}</div>`
+    ).join('');
+  } else {
+    // Fallback: keyword-based (no admin config yet)
+    const KW = [
+      { label:'ALL', kw:'' },
+      { label:'CLOTHING',       kw:'shirt dress shorts' },
+      { label:'SWIMWEAR',       kw:'swimsuit bikini' },
+      { label:'ACCESSORIES',    kw:'bag cap tote gaiter' },
+      { label:'PHONE CASES',    kw:'phone iphone samsung airbag' },
+      { label:'HOME & DECOR',   kw:'mug towel quilt bedding' },
+      { label:'FLAGS & PRINTS', kw:'flag banner poster' },
+      { label:'LIFESTYLE',      kw:'playing cards puzzle keychain sticker' },
+    ];
+    el.innerHTML = KW.filter(f => !f.kw || allProducts.some(p =>
+      f.kw.split(' ').some(k => p.title.toLowerCase().includes(k))
+    )).map((f, i) =>
+      `<div class="filter-chip${i === 0 ? ' active' : ''}" data-tab="${f.label}" onclick="applyTabFilter(this,'${f.label}')" data-kw="${f.kw}">${f.label}</div>`
+    ).join('');
+  }
+}
+
+function applyTabFilter(el, tab) {
   document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
   el.classList.add('active');
-  activeFilter = kw;
-  const filtered = kw
-    ? allProducts.filter(p => kw.split(' ').some(k => p.title.toLowerCase().includes(k)))
-    : allProducts;
+  activeFilter = tab;
+
+  let filtered;
+  if (tab === 'ALL') {
+    filtered = allProducts;
+  } else if (Object.keys(_shopTabs).length) {
+    // ID-based (admin config)
+    const ids = (_shopTabs[tab] || []).map(String);
+    filtered = allProducts.filter(p => ids.includes(String(p.id)));
+  } else {
+    // Keyword fallback
+    const kw = el.dataset.kw || '';
+    filtered = kw ? allProducts.filter(p => kw.split(' ').some(k => p.title.toLowerCase().includes(k))) : allProducts;
+  }
   renderGrid(filtered);
-  // Re-apply cached prices (DOM was just rebuilt)
   filtered.forEach(p => fetchBasePrice(p));
 }
+
+// Legacy alias (kept for any inline refs)
+function applyFilter(el, kw) { applyTabFilter(el, el.dataset.tab || 'ALL'); }
 
 // ── Grid ───────────────────────────────────────────────────
 function renderGrid(products) {
@@ -837,14 +883,14 @@ function renderGrid(products) {
   grid.innerHTML = products.map(p => {
     const cached = priceCache[p.id];
     return `
-    <div class="product-card" onclick="openDetail('${p.id}')">
+    <div class="product-card" onclick="openDetail('${esc(p.id)}')">
       <div class="product-img">
-        ${p.image ? `<img src="${p.image}" alt="${p.title}" loading="lazy"/>` : '🛍'}
+        ${p.image ? `<img src="${esc(p.image)}" alt="${esc(p.title)}" loading="lazy"/>` : '🛍'}
       </div>
       <div class="product-info">
-        <div class="product-name">${p.title}</div>
+        <div class="product-name">${esc(p.title)}</div>
         <div class="product-price-row">
-          <span class="product-price${cached ? '' : ' loading'}" id="price-${p.id}">${cached || '···'}</span>
+          <span class="product-price${cached ? '' : ' loading'}" id="price-${esc(p.id)}">${cached || '···'}</span>
         </div>
         <div class="product-ship">✓ Shipping included</div>
       </div>
@@ -870,7 +916,7 @@ async function fetchBasePrice(prod) {
   }
   // Check per-variant overrides (find cheapest)
   const variantKeys = Object.keys(priceOverrides).filter(k => k.startsWith(prod.id + ':'));
-  if (variantKeys.length > 0) {
+  if (variantKeys.length > 0 && priceOverrides[prod.id] === undefined) {
     const prices = variantKeys.map(k => parseFloat(priceOverrides[k])).filter(p => p > 0);
     if (prices.length) {
       const label = `from $${Math.min(...prices).toFixed(2)}`;
@@ -942,8 +988,9 @@ async function openDetail(productId) {
     const res  = await fetch(`${PROXY_URL}?action=template&productId=${productId}`, { headers: AUTH_HEADERS });
     const data = await res.json();
     const raw  = data?.data || {};
-    currentProd.spuCode    = raw?.product?.spuCode    || '';
-    currentProd.designCode = raw?.designCode          || '';
+    currentProd.spuCode      = raw?.product?.spuCode    || '';
+    currentProd.designCode   = raw?.designCode          || '';
+    currentProd.description  = raw?.product?.description || raw?.product?.productDesc || raw?.product?.desc || raw?.description || '';
     const rawVariants = raw?.variants || raw?.skuList || [];
     currentVariants = rawVariants.map(normalizeVariant);
     renderVariants(currentVariants);
@@ -962,9 +1009,6 @@ function filterVariantSizes(sizes) {
 
 function renderVariants(variants) {
   const available = variants.filter(v => v.available);
-  // DEBUG — visible price dump (remove after diagnosis)
-  const dbg = available.map(v => `${v.size||v.color||'?'}=$${v.salesPrice}`).join(' | ');
-  document.getElementById('detail-info').innerHTML = `<p style="font-size:9px;color:#FFD700;word-break:break-all;opacity:0.7">${dbg}</p>`;
   if (!available.length) { document.getElementById('detail-variants').innerHTML = ''; updateDetailPrice(0); return; }
 
   const rawSizes = [...new Set(available.map(v => v.size).filter(Boolean))];
@@ -977,7 +1021,7 @@ function renderVariants(variants) {
     selectedSize = sizes[0];
     html += `<p class="variant-label">SIZE</p><div class="chips" id="size-chips">`;
     html += sizes.map((s, i) =>
-      `<div class="chip${i===0?' selected':''}" data-type="size" data-val="${s.replace(/"/g,'&quot;')}">${s}</div>`
+      `<div class="chip${i===0?' selected':''}" data-type="size" data-val="${esc(s)}">${esc(s)}</div>`
     ).join('');
     html += '</div>';
   } else if (sizes.length === 1) { selectedSize = sizes[0]; }
@@ -986,7 +1030,7 @@ function renderVariants(variants) {
     selectedColor = colors[0];
     html += `<p class="variant-label">COLOR</p><div class="chips" id="color-chips">`;
     html += colors.map((c, i) =>
-      `<div class="chip${i===0?' selected':''}" data-type="color" data-val="${c.replace(/"/g,'&quot;')}">${c}</div>`
+      `<div class="chip${i===0?' selected':''}" data-type="color" data-val="${esc(c)}">${esc(c)}</div>`
     ).join('');
     html += '</div>';
   } else if (colors.length === 1) { selectedColor = colors[0]; }
@@ -1054,7 +1098,15 @@ function renderDetailInfo(prod, variants) {
   let printLabel = 'Custom Print';
   for (const { kw, label } of PRINT_METHODS) if (titleLow.includes(kw)) { printLabel = label; break; }
 
-  let html = `<p class="detail-desc">${getDesc(prod.title)}</p>`;
+  // Use real Yoycol description if available, else keyword fallback
+  const descText = prod.description
+    ? prod.description.replace(/\n{2,}/g, '\n').trim()
+    : getDesc(prod.title);
+  const descHtml = descText
+    .split('\n')
+    .map(line => `<span>${esc(line)}</span>`)
+    .join('<br>');
+  let html = `<p class="detail-desc">${descHtml}</p>`;
   const specs = [
     ['Print',  printLabel],
     ...(sizes.length  ? [['Sizes',  sizes.length  <= 8 ? sizes.join(' · ')  : `${sizes.length} sizes`]] : []),
@@ -1080,8 +1132,8 @@ function closeDetail() { document.getElementById('detail-overlay').classList.rem
 function addToCart() {
   if (!currentProd || !selectedVariant) { toast('⚠ Please select a variant first'); return; }
   const wholesale = selectedVariant.salesPrice;
-  const _vKey  = currentProd.id + ':' + (selectedVariant?.skuCode || selectedVariant?.variantId || '');
-  const price  = (priceOverrides[_vKey] !== undefined)
+  const _vKey = currentProd.id + ':' + (selectedVariant?.skuCode || selectedVariant?.variantId || '');
+  const price = (priceOverrides[_vKey] !== undefined)
     ? parseFloat(priceOverrides[_vKey])
     : (priceOverrides[currentProd.id] !== undefined)
       ? parseFloat(priceOverrides[currentProd.id])
@@ -1123,7 +1175,8 @@ async function checkSuccess() {
   // Clean URL immediately
   window.history.replaceState({}, '', window.location.pathname);
 
-  // Show banner right away (payment confirmed by Stripe redirect)
+  // Payment confirmed — clear cart and show banner
+  cart = []; saveCart(); updateCartBadge();
   const banner = document.getElementById('success-banner');
   banner.classList.add('show');
   banner.scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -1152,16 +1205,26 @@ document.addEventListener('click', e => {
 });
 
 // ── Overlay backdrop close ─────────────────────────────────
-window.addEventListener('load', () => {
+window.addEventListener('load', async () => {
   checkSuccess();
   updateCartBadge();
-  loadProducts();
+
+  // Wait for tabs + order + products — all 3 must be ready before rendering
+  await Promise.all([loadShopTabs(), loadShopOrder(), loadProducts()]);
+
+  // Now all data is loaded — build filters with real tabs, render sorted grid
+  buildFilters();
+  renderGrid(allProducts);
+  allProducts.forEach(p => fetchBasePrice(p));
+
+  // Price overrides — background refresh after initial render
   loadPriceOverrides().then(() => {
     if (allProducts.length) {
       Object.keys(priceCache).forEach(k => delete priceCache[k]);
       allProducts.forEach(p => fetchBasePrice(p));
     }
   }).catch(() => {});
+
   document.querySelectorAll('.overlay').forEach(el => {
     el.addEventListener('click', e => { if (e.target === el) el.classList.remove('active'); });
   });
