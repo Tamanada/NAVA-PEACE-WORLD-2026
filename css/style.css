@@ -39,14 +39,32 @@
   --blue-navy:   #0a1628;
 
   /* Glass card */
-  --glass-bg:     rgba(247, 247, 241, 0.18);
-  --glass-border: rgba(255, 255, 255, 0.55);
-  --glass-blur:   18px;
+  --glass-bg:     rgba(255, 255, 255, 0.09);
+  --glass-border: rgba(255, 255, 255, 0.30);
+  --glass-blur:   20px;
 
   /* Fonts — Nasalization everywhere */
   --font-title:  'Nasalization', 'Orbitron', 'Arial Black', sans-serif;
   --font-body:   'Nasalization', 'Orbitron', 'Arial Black', sans-serif;
   --font-mono:   'Nasalization', 'Orbitron', 'Arial Black', sans-serif;
+
+  /* NFT Tier palette (matches market.html) */
+  --tier-lover:       #64D2FF;
+  --tier-gardener:    #64FFAA;
+  --tier-guardian:    #3AACDF;
+  --tier-guide:       #7B9FFF;
+  --tier-illuminator: #BF7FFF;
+  --tier-legend:      #FFD040;
+  --tier-angel:       #FF8FB0;
+  --tier-power:       #FF6B6B;
+
+  /* Section accent tokens */
+  --accent-gold:   #FFD040;
+  --accent-green:  #64FFAA;
+  --accent-purple: #BF7FFF;
+  --accent-pink:   #FF8FB0;
+  --accent-cyan:   #6DD5F5;
+  --accent-red:    #FF6B6B;
 }
 
 html {
@@ -70,7 +88,16 @@ h1, h2, h3, h4, h5, h6,
 
 body {
   font-family: var(--font-body);
-  background: var(--primary);
+  background:
+    linear-gradient(170deg,
+      #7AD8F8 0%,
+      #48BAEC 12%,
+      #2EA6D8 30%,
+      #1890BF 52%,
+      #0E7BAA 70%,
+      #0a6490 86%,
+      #071528 100%);
+  background-attachment: fixed;
   color: var(--white);
   overflow-x: hidden;
   line-height: 1.7;
@@ -298,8 +325,9 @@ html[dir="rtl"] .lang-dropdown {
    GLOBAL SECTION STYLES
    ============================================ */
 section {
-  padding: 30px 20px;
+  padding: 60px 20px;
   text-align: center;
+  position: relative;
 }
 
 .container {
@@ -314,8 +342,18 @@ section {
   text-align: center;
   letter-spacing: 5px;
   margin-bottom: 14px;
-  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3), 0 1px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.3), 0 0 60px rgba(109, 213, 245, 0.25);
   line-height: 1.4;
+}
+
+.section-heading::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--accent-cyan), transparent);
+  margin: 14px auto 0;
+  border-radius: 2px;
 }
 
 .section-subheading {
@@ -698,9 +736,8 @@ section {
    VIDEO SECTION
    ============================================ */
 .section-video {
-  background: radial-gradient(ellipse at 50% 0%,
-    var(--primary) 0%, var(--deep-blue) 100%);
-  padding: 0 20px 20px;
+  background: transparent;
+  padding: 0 20px 40px;
 }
 
 .video-wrapper {
@@ -748,9 +785,8 @@ section {
    SECTION TODAY
    ============================================ */
 .section-today {
-  background: radial-gradient(ellipse at 50% 30%,
-    var(--sky-start) 0%, var(--primary) 50%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(109, 213, 245, 0.05);
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
 
 .dove-circle {
@@ -829,9 +865,8 @@ section {
    SECTION FIRST / MISSION
    ============================================ */
 .section-first {
-  background: radial-gradient(ellipse at 50% 30%,
-    var(--primary) 0%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(191, 127, 255, 0.04);
+  border-top: 1px solid rgba(191, 127, 255, 0.12);
 }
 
 .card-label {
@@ -1061,9 +1096,8 @@ section {
    ============================================ */
 .section-app,
 .section-five-phones {
-  background: radial-gradient(ellipse at 50% 50%,
-    var(--primary) 0%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(100, 210, 255, 0.05);
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
 
 .five-phones {
@@ -1318,9 +1352,8 @@ section {
    SECTION VISION
    ============================================ */
 .section-vision {
-  background: radial-gradient(ellipse at 50% 30%,
-    var(--primary) 0%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(191, 127, 255, 0.05);
+  border-top: 1px solid rgba(191, 127, 255, 0.12);
 }
 
 .vision-title {
@@ -1349,9 +1382,8 @@ section {
    SECTION COMMUNITY
    ============================================ */
 .section-community {
-  background: radial-gradient(ellipse at 50% 50%,
-    var(--sky-start) 0%, var(--primary) 50%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(78, 194, 254, 0.05);
+  border-top: 1px solid rgba(255,255,255,0.08);
 }
 
 .community-card {
@@ -1399,9 +1431,8 @@ section {
    SECTION MANIFESTO
    ============================================ */
 .section-manifesto {
-  background: linear-gradient(180deg,
-    var(--deep-blue) 0%, #0d4f7a 50%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(7, 21, 40, 0.40);
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .manifesto-title {
@@ -1464,9 +1495,8 @@ section {
    SECTION BLOCKCHAIN
    ============================================ */
 .section-blockchain {
-  background: radial-gradient(ellipse at 50% 30%,
-    var(--primary) 0%, var(--deep-blue) 80%);
-  padding: 30px 20px;
+  background: rgba(58, 172, 223, 0.05);
+  border-top: 1px solid rgba(58, 172, 223, 0.12);
 }
 
 .blockchain-img-wrapper {
@@ -1534,8 +1564,8 @@ section {
    FROM GAME TO ECONOMY
    ============================================ */
 .section-game2economy {
-  background: linear-gradient(180deg, var(--deep-blue) 0%, var(--primary) 50%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(255, 208, 64, 0.04);
+  border-top: 1px solid rgba(255, 208, 64, 0.12);
 }
 
 .game2economy-steps {
@@ -1614,9 +1644,8 @@ section {
    SECTION FOUNDATION
    ============================================ */
 .section-foundation {
-  background: radial-gradient(ellipse at 50% 30%,
-    var(--sky-start) 0%, var(--primary) 50%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(100, 255, 170, 0.04);
+  border-top: 1px solid rgba(100, 255, 170, 0.12);
 }
 
 .foundation-circle {
@@ -1666,9 +1695,8 @@ section {
    SECTION HOW TO PLAY
    ============================================ */
 .section-howtoplay {
-  background: radial-gradient(ellipse at 50% 20%,
-    var(--sky-start) 0%, var(--primary) 40%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(109, 213, 245, 0.04);
+  border-top: 1px solid rgba(255, 208, 64, 0.10);
 }
 
 .info-card {
@@ -1764,9 +1792,8 @@ section {
    SECTION ROADMAP
    ============================================ */
 .section-roadmap {
-  background: linear-gradient(180deg,
-    var(--deep-blue) 0%, #0d4f7a 50%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(7, 21, 40, 0.40);
+  border-top: 1px solid rgba(255, 208, 64, 0.08);
 }
 
 .roadmap-phase {
@@ -1793,9 +1820,8 @@ section {
    SECTION FOUNDER
    ============================================ */
 .section-founder {
-  background: radial-gradient(ellipse at 50% 50%,
-    var(--primary) 0%, var(--deep-blue) 100%);
-  padding: 30px 20px;
+  background: rgba(255, 143, 176, 0.04);
+  border-top: 1px solid rgba(255, 143, 176, 0.10);
 }
 
 .founder-portrait {
@@ -2284,4 +2310,106 @@ section {
   .reading-window-lg { max-height: 350px; }
 
   .video-wrapper { max-width: 100%; }
+}
+
+/* ============================================
+   DESKTOP NAV — min-width 1024px
+   ============================================ */
+@media (min-width: 1024px) {
+  .nav-toggle { display: none; }
+
+  .nav-links {
+    position: static;
+    display: flex !important;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    transform: none !important;
+    overflow: visible;
+    max-height: none;
+  }
+
+  .nav-links li a {
+    padding: 7px 14px;
+    font-size: 0.62rem;
+    letter-spacing: 1.5px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .navbar {
+    padding: 0 40px;
+  }
+}
+
+/* ============================================
+   NFT LEVEL CHIPS (tier colors)
+   ============================================ */
+.nft-levels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.nft-levels li {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.62rem;
+  letter-spacing: 1.5px;
+  border: 1.5px solid currentColor;
+  background: rgba(0,0,0,0.25);
+}
+
+.nft-levels li:nth-child(1)  { color: var(--tier-lover);       border-color: var(--tier-lover); }
+.nft-levels li:nth-child(2)  { color: var(--tier-gardener);    border-color: var(--tier-gardener); }
+.nft-levels li:nth-child(3)  { color: var(--tier-guardian);    border-color: var(--tier-guardian); }
+.nft-levels li:nth-child(4)  { color: var(--tier-guide);       border-color: var(--tier-guide); }
+.nft-levels li:nth-child(5)  { color: var(--tier-illuminator); border-color: var(--tier-illuminator); }
+.nft-levels li:nth-child(6)  { color: var(--tier-legend);      border-color: var(--tier-legend); }
+.nft-levels li:nth-child(7)  { color: var(--tier-angel);       border-color: var(--tier-angel); }
+.nft-levels li:nth-child(8)  { color: var(--tier-power);       border-color: var(--tier-power); }
+
+/* ============================================
+   NFT TABLE — color-coded rows per tier
+   ============================================ */
+.nft-table tbody tr:nth-child(1) td:first-child { color: var(--tier-lover);       border-left: 3px solid var(--tier-lover); }
+.nft-table tbody tr:nth-child(2) td:first-child { color: var(--tier-gardener);    border-left: 3px solid var(--tier-gardener); }
+.nft-table tbody tr:nth-child(3) td:first-child { color: var(--tier-guardian);    border-left: 3px solid var(--tier-guardian); }
+.nft-table tbody tr:nth-child(4) td:first-child { color: var(--tier-guide);       border-left: 3px solid var(--tier-guide); }
+.nft-table tbody tr:nth-child(5) td:first-child { color: var(--tier-illuminator); border-left: 3px solid var(--tier-illuminator); }
+.nft-table tbody tr:nth-child(6) td:first-child { color: var(--tier-legend);      border-left: 3px solid var(--tier-legend); }
+.nft-table tbody tr:nth-child(7) td:first-child { color: var(--tier-angel);       border-left: 3px solid var(--tier-angel); }
+.nft-table tbody tr:nth-child(8) td:first-child { color: var(--tier-power);       border-left: 3px solid var(--tier-power); }
+
+.nft-table tbody tr:nth-child(1) { background: rgba(100, 210, 255, 0.04); }
+.nft-table tbody tr:nth-child(2) { background: rgba(100, 255, 170, 0.04); }
+.nft-table tbody tr:nth-child(3) { background: rgba(58,  172, 223, 0.04); }
+.nft-table tbody tr:nth-child(4) { background: rgba(123, 159, 255, 0.04); }
+.nft-table tbody tr:nth-child(5) { background: rgba(191, 127, 255, 0.04); }
+.nft-table tbody tr:nth-child(6) { background: rgba(255, 208,  64, 0.05); }
+.nft-table tbody tr:nth-child(7) { background: rgba(255, 143, 176, 0.04); }
+.nft-table tbody tr:nth-child(8) { background: rgba(255, 107, 107, 0.05); }
+
+/* ============================================
+   FOUNDATION PILLARS — 2×2 GRID (desktop)
+   ============================================ */
+@media (min-width: 640px) {
+  .foundation-pillars-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    max-width: 860px;
+    margin: 0 auto;
+  }
+
+  .foundation-pillars-grid .foundation-pillar {
+    margin-bottom: 0;
+  }
 }
