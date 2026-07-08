@@ -235,7 +235,8 @@
   "howtoplay.th_price": "السعر",
   "howtoplay.th_upgrade": "ترقية فورية",
   "howtoplay.th_supply": "الإمداد",
-  "howtoplay.th_clicks": "النقرات/اليوم",
+  "howtoplay.th_clicks": "نقرات/24س",
+  "howtoplay.th_avg_ref": "NFT %",
   "howtoplay.th_rewards": "مكافآت الإحالة",
   "howtoplay.ref1": "100 إحالة = 1 PEACE GARDENER مجاناً",
   "howtoplay.ref2": "250 إحالة = 1 PEACE GUARDIAN مجاناً",
@@ -244,6 +245,7 @@
   "howtoplay.ref5": "2,500 إحالة = 1 PEACE LEGEND مجاناً",
   "howtoplay.ref6": "5,000 إحالة = 1 ANGEL OF PEACE مجاناً",
   "howtoplay.ref7": "10,000 إحالة = 1 PEACE POWER مجاناً",
+  "howtoplay.dynamic_pricing": "* أسعار الإطلاق (اليوم الأول). كل 30 يوم، ترتفع أسعار NFT بما يتناسب مع معدل مبيعات الشهر الماضي لكل مستوى.",
 
   "howtoplay.nft_why_title": "لماذا NFTs مهمة؟",
   "howtoplay.nft_why_p1": "لأنها تتيح لك:",

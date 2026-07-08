@@ -235,7 +235,8 @@
   "howtoplay.th_price": "मूल्य",
   "howtoplay.th_upgrade": "तत्काल अपग्रेड",
   "howtoplay.th_supply": "आपूर्ति",
-  "howtoplay.th_clicks": "क्लिक/दिन",
+  "howtoplay.th_clicks": "टैप/24H",
+  "howtoplay.th_avg_ref": "NFT %",
   "howtoplay.th_rewards": "रेफरल पुरस्कार",
   "howtoplay.ref1": "100 रेफरल = 1 PEACE GARDENER मुफ्त",
   "howtoplay.ref2": "250 रेफरल = 1 PEACE GUARDIAN मुफ्त",
@@ -244,6 +245,7 @@
   "howtoplay.ref5": "2,500 रेफरल = 1 PEACE LEGEND मुफ्त",
   "howtoplay.ref6": "5,000 रेफरल = 1 ANGEL OF PEACE मुफ्त",
   "howtoplay.ref7": "10,000 रेफरल = 1 PEACE POWER मुफ्त",
+  "howtoplay.dynamic_pricing": "* लॉन्च कीमतें (दिन 1)। हर 30 दिनों में, NFT की कीमतें प्रत्येक स्तर के पिछले महीने की बिक्री दर के अनुपात में बढ़ती हैं।",
 
   "howtoplay.nft_why_title": "NFTs क्यों महत्वपूर्ण हैं?",
   "howtoplay.nft_why_p1": "क्योंकि वे आपको अनुमति देते हैं:",

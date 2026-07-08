@@ -235,7 +235,8 @@
   "howtoplay.th_price": "PRIX",
   "howtoplay.th_upgrade": "MISE À NIVEAU INSTANTANÉE",
   "howtoplay.th_supply": "OFFRE",
-  "howtoplay.th_clicks": "CLICS/JOUR",
+  "howtoplay.th_clicks": "TAPS/24H",
+  "howtoplay.th_avg_ref": "NFT %",
   "howtoplay.th_rewards": "RÉCOMPENSES DE PARRAINAGE",
   "howtoplay.ref1": "100 parrainages = 1 PEACE GARDENER GRATUIT",
   "howtoplay.ref2": "250 parrainages = 1 PEACE GUARDIAN GRATUIT",
@@ -244,6 +245,7 @@
   "howtoplay.ref5": "2 500 parrainages = 1 PEACE LEGEND GRATUIT",
   "howtoplay.ref6": "5 000 parrainages = 1 ANGEL OF PEACE GRATUIT",
   "howtoplay.ref7": "10 000 parrainages = 1 PEACE POWER GRATUIT",
+  "howtoplay.dynamic_pricing": "* Prix de lancement (Jour 1). Tous les 30 jours, le prix des NFT augmente proportionnellement au taux de vente du mois précédent pour chaque niveau.",
 
   "howtoplay.nft_why_title": "Pourquoi les NFTs sont-ils importants ?",
   "howtoplay.nft_why_p1": "Parce qu'ils vous permettent de :",

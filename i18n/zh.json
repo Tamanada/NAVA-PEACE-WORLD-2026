@@ -235,7 +235,8 @@
   "howtoplay.th_price": "价格",
   "howtoplay.th_upgrade": "即时升级",
   "howtoplay.th_supply": "供应量",
-  "howtoplay.th_clicks": "每日点击",
+  "howtoplay.th_clicks": "点击/24H",
+  "howtoplay.th_avg_ref": "NFT %",
   "howtoplay.th_rewards": "推荐奖励",
   "howtoplay.ref1": "推荐100人 = 1个免费PEACE GARDENER",
   "howtoplay.ref2": "推荐250人 = 1个免费PEACE GUARDIAN",
@@ -244,6 +245,7 @@
   "howtoplay.ref5": "推荐2,500人 = 1个免费PEACE LEGEND",
   "howtoplay.ref6": "推荐5,000人 = 1个免费ANGEL OF PEACE",
   "howtoplay.ref7": "推荐10,000人 = 1个免费PEACE POWER",
+  "howtoplay.dynamic_pricing": "* 发行价格（第1天）。每30天，NFT价格会根据各等级上月的销售率按比例上涨。",
 
   "howtoplay.nft_why_title": "为什么 NFTs 很重要？",
   "howtoplay.nft_why_p1": "因为它们允许您：",

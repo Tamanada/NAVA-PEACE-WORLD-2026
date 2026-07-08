@@ -235,7 +235,8 @@
   "howtoplay.th_price": "PREIS",
   "howtoplay.th_upgrade": "SOFORT-UPGRADE",
   "howtoplay.th_supply": "ANGEBOT",
-  "howtoplay.th_clicks": "KLICKS/TAG",
+  "howtoplay.th_clicks": "TAPS/24H",
+  "howtoplay.th_avg_ref": "NFT %",
   "howtoplay.th_rewards": "EMPFEHLUNGS-BELOHNUNGEN",
   "howtoplay.ref1": "100 Empfehlungen = 1 PEACE GARDENER kostenlos",
   "howtoplay.ref2": "250 Empfehlungen = 1 PEACE GUARDIAN kostenlos",
@@ -244,6 +245,7 @@
   "howtoplay.ref5": "2.500 Empfehlungen = 1 PEACE LEGEND kostenlos",
   "howtoplay.ref6": "5.000 Empfehlungen = 1 ANGEL OF PEACE kostenlos",
   "howtoplay.ref7": "10.000 Empfehlungen = 1 PEACE POWER kostenlos",
+  "howtoplay.dynamic_pricing": "* Startpreise (Tag 1). Alle 30 Tage steigen die NFT-Preise proportional zur Verkaufsrate des Vormonats für jede Stufe.",
 
   "howtoplay.nft_why_title": "Warum sind NFTs wichtig?",
   "howtoplay.nft_why_p1": "Weil sie dir erlauben:",

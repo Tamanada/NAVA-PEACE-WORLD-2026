@@ -235,7 +235,8 @@
   "howtoplay.th_price": "PRECIO",
   "howtoplay.th_upgrade": "MEJORA INSTANTÁNEA",
   "howtoplay.th_supply": "OFERTA",
-  "howtoplay.th_clicks": "CLICS/DÍA",
+  "howtoplay.th_clicks": "TAPS/24H",
+  "howtoplay.th_avg_ref": "NFT %",
   "howtoplay.th_rewards": "RECOMPENSAS POR REFERIDOS",
   "howtoplay.ref1": "100 referidos = 1 PEACE GARDENER GRATIS",
   "howtoplay.ref2": "250 referidos = 1 PEACE GUARDIAN GRATIS",
@@ -244,6 +245,7 @@
   "howtoplay.ref5": "2.500 referidos = 1 PEACE LEGEND GRATIS",
   "howtoplay.ref6": "5.000 referidos = 1 ANGEL OF PEACE GRATIS",
   "howtoplay.ref7": "10.000 referidos = 1 PEACE POWER GRATIS",
+  "howtoplay.dynamic_pricing": "* Precios de lanzamiento (Día 1). Cada 30 días, el precio de los NFT aumenta proporcionalmente a la tasa de ventas del mes anterior para cada nivel.",
 
   "howtoplay.nft_why_title": "¿Por qué son importantes los NFTs?",
   "howtoplay.nft_why_p1": "Porque te permiten:",

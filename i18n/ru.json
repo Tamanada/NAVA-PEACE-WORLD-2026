@@ -235,7 +235,8 @@
   "howtoplay.th_price": "ЦЕНА",
   "howtoplay.th_upgrade": "МГНОВЕННЫЙ АПГРЕЙД",
   "howtoplay.th_supply": "ПРЕДЛОЖЕНИЕ",
-  "howtoplay.th_clicks": "КЛИКОВ/ДЕНЬ",
+  "howtoplay.th_clicks": "TAPS/24H",
+  "howtoplay.th_avg_ref": "NFT %",
   "howtoplay.th_rewards": "РЕФЕРАЛЬНЫЕ НАГРАДЫ",
   "howtoplay.ref1": "100 рефералов = 1 PEACE GARDENER бесплатно",
   "howtoplay.ref2": "250 рефералов = 1 PEACE GUARDIAN бесплатно",
@@ -244,6 +245,7 @@
   "howtoplay.ref5": "2 500 рефералов = 1 PEACE LEGEND бесплатно",
   "howtoplay.ref6": "5 000 рефералов = 1 ANGEL OF PEACE бесплатно",
   "howtoplay.ref7": "10 000 рефералов = 1 PEACE POWER бесплатно",
+  "howtoplay.dynamic_pricing": "* Стартовые цены (День 1). Каждые 30 дней цены NFT растут пропорционально показателям продаж предыдущего месяца для каждого уровня.",
 
   "howtoplay.nft_why_title": "Почему NFTs важны?",
   "howtoplay.nft_why_p1": "Потому что они позволяют вам:",
